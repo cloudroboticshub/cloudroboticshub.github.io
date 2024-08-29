@@ -99,13 +99,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cloud Robotics Working Group. Built with Docusaurus.<br/>
-      Credits: <a href="https://thenounproject.com/browse/icons/term/blog/" target="_blank" title="Blog Icons">Blog by Dierys Design</a>,
-      <a href="https://thenounproject.com/browse/icons/term/artificial-intelligence/" target="_blank" title="Artificial Intelligence Icons">Artificial Intelligence by ProSymbols</a>, and
-      <a href="https://thenounproject.com/browse/icons/term/survey/" target="_blank" title="Survey Icons">Survey by Kartika Sholehatin</a>
-      from the <a href="https://thenounproject.com" target="_blank" title="Noun Project">Noun Project</a> (CC BY 3.0).
-      `,
-
+      copyright: `Copyright © ${new Date().getFullYear()} Cloud Robotics Working Group. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -15,6 +15,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Published blogs with recent talks and news from the Cloud Robotics Working Group.
+        Blog by Dierys Design from <a href="https://thenounproject.com/browse/icons/term/blog/" target="_blank" title="Blog Icons">Noun Project</a> (CC BY 3.0)
       </>
     ),
   },
@@ -24,6 +25,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Find the best online resources available, curated by the Working Group.
+        Artificial Intelligence by ProSymbols from <a href="https://thenounproject.com/browse/icons/term/artificial-intelligence/" target="_blank" title="Artificial Intelligence Icons">Noun Project</a> (CC BY 3.0)
       </>
     ),
   },
@@ -32,7 +34,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/noun-survey-7048795.svg').default,
     description: (
       <>
-        See the latest crowd-sourced knowledge from the State of Cloud Robotics survey.
+        See the latest crowd-sourced knowledge from the State of Cloud Robotics survey. 
+        Survey by Kartika Sholehatin from <a href="https://thenounproject.com/browse/icons/term/survey/" target="_blank" title="Survey Icons">Noun Project</a> (CC BY 3.0)
       </>
     ),
   },
