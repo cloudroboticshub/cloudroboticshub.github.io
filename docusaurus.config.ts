@@ -104,7 +104,7 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Cloud Robotics Working Group. Built with Docusaurus.<br/>
-      Credits: UXWing at https://uxwing.com - see <a href=https://uxwing.com/license/">license terms</a>.
+      Credits: UXWing at https://uxwing.com - see <a href="https://uxwing.com/license/">license terms</a>.
       `,
 
     },
