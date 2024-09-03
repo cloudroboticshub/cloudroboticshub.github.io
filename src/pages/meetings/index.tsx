@@ -54,13 +54,11 @@ export default function Meetings(): JSX.Element {
           </ul>
 
           <Heading as="h2">
-            Upcoming Meeting: 2024-09-09; including talk from Eric Chen of
-            Berkeley UC!
+            Upcoming Meeting: 2024-09-09
           </Heading>
           <p>
             The group plans to discuss the launch of the new Cloud Robotics Hub
-            site, then will host Eric Chen from Berkeley UC, who plans to talk
-            about his work on FogROS2.
+            site and discuss potential improvements, then talk about news in Cloud Robotics.
           </p>
 
           <Heading as="h2">2024-08-26</Heading>
