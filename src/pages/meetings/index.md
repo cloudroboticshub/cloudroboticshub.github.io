@@ -14,7 +14,7 @@ information:
 
 ## 2023-10-07 <mark>upcoming guest talk</mark>: Enabling Usable and Reliable Cloud Robotics with FogROS2 (Kaiyuan Eric Chen)
 
- On  we will host a talk by [Kaiyuan Eric Chen](https://keplerc.github.io/), a PhD student in the Department of Computer Sciences at UC Berkeley and a member of Berkeley Automation Lab working closely with [Ken Goldberg](https://goldberg.berkeley.edu/) and Jeffrey Ichnowski.
+ On 2023-10-07 we will host a talk by [Kaiyuan Eric Chen](https://keplerc.github.io/), a PhD student in the Department of Computer Sciences at UC Berkeley and a member of Berkeley Automation Lab working closely with [Ken Goldberg](https://goldberg.berkeley.edu/) and Jeffrey Ichnowski.
  
  Eric has been leading the work on [FogROS2](https://berkeleyautomation.github.io/FogROS2): a state-of-the-art open source cloud robotics framework that offloads unmodified ROS2 applications to the cloud.  He will give a talk overarching the different results obtained with the FogROS2 line of research.
 
@@ -23,7 +23,7 @@ information:
 
 The group hosted a talk about [CloudGripper](https://cloudgripper.org/), [An Open Source Cloud Robotics Testbed for Robotic Manipulation Research, Benchmarking and Data Collection at Scale](https://arxiv.org/abs/2309.12786) by [Florian Pokorny](https://www.csc.kth.se/~fpokorny/), Associate Professor of Machine Learning at [KTH Royal Institute Technology](https://www.kth.se/) and Co-Founder of [Scaleup Robotics](https://scaleuprobotics.com/).
 
-Here's a link to the [blog post and talk recording](blog/florian-pokorny-cloudgripper).
+Here's a link to the [blog post and talk recording](/blog/florian-pokorny-cloudgripper).
 
 Find the full meeting recording below.
 
