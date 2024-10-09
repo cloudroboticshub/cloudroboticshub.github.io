@@ -14,3 +14,7 @@ cloudgripper:
   label: CloudGripper
   permalink: /cloudgripper
   description: Related to CloudGripper, the research experiment to gather data on gripping deformable objects
+fogros2:
+  label: FogROS2
+  permalink: /fogros2
+  description: Related to FogROS2, a framework for cloud deployment of computational graphs in a security-conscious manner
