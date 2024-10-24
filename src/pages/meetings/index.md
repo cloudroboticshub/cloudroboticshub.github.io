@@ -12,9 +12,19 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com&ctz=America/Los_Angeles">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## 2024-10-21: Upcoming Meeting
+## 2024-11-04 <mark>Upcoming Guest Talk</mark>: Eclipse Zenoh and its offering for Cloud Connectivity (Julien Enoch)
 
-The group plans to meet and discuss the latest news in Cloud Robotics. Please come along if you want to catch up with others in the field!
+On 2024-11-04 we will host a talk by [Julien Enoch](https://www.linkedin.com/in/julienenoch/), a Senior Solutions Architect at [ZettaScale Technology](https://www.zettascale.tech/) and [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) committer.
+
+Julien will talk about the Zenoh protocol, which can run everywhere, from micro-controllers to the Cloud; over TCP, UDP, QUIC, and Websockets. Zenoh provides a software router that can be deployed in any Cloud instance such as AWS EC2, and that can route the protocol between different subsystems. This talk will cover how this is particularly helpful for Connectivity in Cloud Robotics.
+
+## 2024-10-21
+
+The group discussed recent conferences, possible resources for the Cloud Robotics Hub, and methods of working offline to accomplish more between meetings. The group also discussed their opinions on how the Working Group was doing, with the aim of recognising their successes and considering how to improve going forwards.
+
+The full meeting recording is available below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Eie35kh9jDQ?si=ajkJhcelLnZuSUqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2024-10-07 Guest Talk: Enabling Usable and Reliable Cloud Robotics with FogROS2 (Kaiyuan Eric Chen)
 
@@ -24,7 +34,7 @@ More information about the presentation, including a summary of its content and 
 
 The group spent some time at the end discussing recent news in robotics, and the plan for the next meeting.
 
-The full meeting recording is available blow.
+The full meeting recording is available below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OISBgMuVWf4?si=ZoMrmwUkDlM-GInS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
