@@ -12,11 +12,19 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com&ctz=America/Los_Angeles">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## 2024-11-04 <mark>Upcoming Guest Talk</mark>: Eclipse Zenoh and its offering for Cloud Connectivity (Julien Enoch)
+## Upcoming Meeting: 2024-11-18
 
-On 2024-11-04 we will host a talk by [Julien Enoch](https://www.linkedin.com/in/julienenoch/), a Senior Solutions Architect at [ZettaScale Technology](https://www.zettascale.tech/) and [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) committer.
+The group plans to meet on Monday 18th November 2024 to discuss the latest robotics news and how well the group is progressing towards its goals. Anyone is welcome to join!
 
-Julien will talk about the Zenoh protocol, which can run everywhere, from micro-controllers to the Cloud; over TCP, UDP, QUIC, and Websockets. Zenoh provides a software router that can be deployed in any Cloud instance such as AWS EC2, and that can route the protocol between different subsystems. This talk will cover how this is particularly helpful for Connectivity in Cloud Robotics.
+## 2024-11-04 Guest Talk: Eclipse Zenoh and its offering for Cloud Connectivity (Julien Enoch)
+
+The group hosted a talk by [Julien Enoch](https://www.linkedin.com/in/julienenoch/), a Senior Solutions Architect at [ZettaScale Technology](https://www.zettascale.tech/) and [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) committer.
+
+Julien spoke about the Zenoh protocol, which can run everywhere, from micro-controllers to the Cloud; over TCP, UDP, QUIC, and Websockets. Zenoh provides a software router that can be deployed in any Cloud instance such as AWS EC2, and that can route the protocol between different subsystems. The talk also covered how this is particularly helpful for Connectivity in Cloud Robotics, with a video demonstration of controlling a robot in California from an RViz instance in France!
+
+If you would like to see the talk, which took the whole meeting time, see the recording below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ANBG_O0fQwQ?si=X3zJtsKlXY6e-3HM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2024-10-21
 
