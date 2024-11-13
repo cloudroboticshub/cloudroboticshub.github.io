@@ -18,7 +18,7 @@ fogros2:
   label: FogROS2
   permalink: /fogros2
   description: Related to FogROS2, a framework for cloud deployment of computational graphs in a security-conscious manner
-fogros2:
+zenoh:
   label: Eclipse Zenoh
   permalink: /zenoh
   description: Related to Eclipse Zenoh, a messaging protocol with software router provided, capable of working via the cloud
