@@ -12,9 +12,17 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com&ctz=America/Los_Angeles">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## Upcoming Meeting: 2024-11-18
+## Upcoming Meeting: 2024-12-02 | Testing Eclipse Zenoh
 
-The group plans to meet on Monday 18th November 2024 to discuss the latest robotics news and how well the group is progressing towards its goals. Anyone is welcome to join!
+The group plans to meet on Monday 2nd December 2024 to set up [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) from scratch. They hope to gather feedback that can be given to Zenoh's creators. Anyone is welcome to join!
+
+## 2024-11-18
+
+The group caught up on the latest robotics news and discussed GenAI in robotics and the start-ups using them. The group then agreed to focus on Eclipse Zenoh for its next meeting.
+
+If you would like to watch the meeting, you can see the recording below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EIMiKcafRy8?si=vD7uDhfZsLsB6bLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2024-11-04 Guest Talk: Eclipse Zenoh and its offering for Cloud Connectivity (Julien Enoch)
 
