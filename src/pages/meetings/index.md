@@ -10,11 +10,35 @@ information:
 - <a href="https://groups.google.com/g/cloud-robotics-working-group-invites">Google Group</a>, where you can sign up to be notified of future updates.
 - <a href="https://meet.google.com/xox-nshv-uvm">Google Meet room</a>, where we meet online.
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
-- <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com&ctz=America/Los_Angeles">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
+- <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## Upcoming Meeting: 2024-12-02 | Testing Eclipse Zenoh
+## 2023-12-16 <mark>Upcoming Guest Talk</mark>: Robotics Platform empowered by Cloud-Native Technologies (Tomoya Fujita)
 
-The group plans to meet on Monday 2nd December 2024 to set up [Eclipse Zenoh](https://github.com/eclipse-zenoh/zenoh) from scratch. They hope to gather feedback that can be given to Zenoh's creators. Anyone is welcome to join!
+On Monday 16th December we will host a talk by [Tomoya Fujita](https://github.com/fujitatomoya),
+a software engineer, contributor to ROS2 core, and well-respected community builder.
+
+Tomoya will talk about a range of Cloud-Native Technologies he has worked on, and their
+relevance to robotics. In particular, Tomoya has done a great deal of work on KubeEdge,
+a platform built on Kubernetes that can be used to deploy software to robots as if they
+are Kubernetes clusters. Some resources from his talk includes:
+
+- [ROSCon 2023: ROS with Kubernetes / KubeEdge](https://roscon.ros.org/2023/talks/ROS_with_KubernetesKubeEdge.pdf)
+- [Some examples to deploy ROS / ROS 2 with Kubernetes](https://github.com/fujitatomoya/ros_k8s)
+- [Next-generation Robotics Platform for Edge/Cloud](https://static.sched.com/hosted_files/colocatedeventsna2024/15/Cilium%2BeBPF-Day-NA_Cilium-with-KubeEdge.v0.pdf)
+
+Tomoya also plans to leave time to discuss Cloud Robotics with the group, particularly the problems that people are having with Cloud Robotics.
+
+If you are interested in seeing the talk, be sure to join on Monday 16th December from 1700-1800 UTC! The talk will also be recorded and uploaded to YouTube.
+
+## 2024-12-02 | Testing Eclipse Zenoh
+
+In this meeting, the group spent the time trying out the workshop from Eclipse Zenoh that was used in the latest ROSCon. Together, they accomplished a few of the exercises and discussed the ease of setup, and some comments they could give as feedback.
+
+The workshop is available [from Github](https://github.com/ZettaScaleLabs/roscon2024_workshop). The group completed exercises 1, 2, and 5, then two members sent messages to each other using the instructions in exercise 3.
+
+The meeting recording is available below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NwZrAPGrDpU?si=0vlq9jaoZ7pECU9e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2024-11-18
 
