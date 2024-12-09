@@ -12,7 +12,7 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## 2023-12-16 <mark>Upcoming Guest Talk</mark>: Robotics Platform empowered by Cloud-Native Technologies (Tomoya Fujita)
+## 2024-12-16 <mark>Upcoming Guest Talk</mark>: Robotics Platform empowered by Cloud-Native Technologies (Tomoya Fujita)
 
 On Monday 16th December we will host a talk by [Tomoya Fujita](https://github.com/fujitatomoya),
 a software engineer, contributor to ROS2 core, and well-respected community builder.
