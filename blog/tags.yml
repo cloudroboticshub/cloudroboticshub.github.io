@@ -22,3 +22,7 @@ zenoh:
   label: Eclipse Zenoh
   permalink: /zenoh
   description: Related to Eclipse Zenoh, a messaging protocol with software router provided, capable of working via the cloud
+turtlebot:
+  label: Turtlebot Platform
+  permalink: /turtlebot
+  description: Related to Turtlebot reference platforms, a series of mobile base robots frequently used to demonstrate indoor navigation
