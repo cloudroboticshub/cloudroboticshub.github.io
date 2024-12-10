@@ -8,7 +8,7 @@ tags: [guest, ros, zenoh, turtlebot]
 Inspired by Julien Enoch's presentation on Eclipse Zenoh ([meeting on 2024-11-04](/meetings)) and our attempts two weeks later to test Zenoh as a ROS 2 middleware ([meeting on 2024-12-02](/meetings)), I decided to upgrade my Turtlebot2 reference platform to use Zenoh. In particular, I wanted to duplicate the existing ability to control the robot using RViz from a separate computer.
 
 ## tl;dr
-All files can be found at <https://github.com/ingotrobotics/turtlebot2_ros2/tree/feature/zenoh>. Issues, pull requests, and all other commentary are encouraged.
+All files can be found at [https://github.com/ingotrobotics/turtlebot2_ros2/tree/feature/zenoh](https://github.com/ingotrobotics/turtlebot2_ros2/tree/feature/zenoh). Issues, pull requests, and all other commentary are encouraged.
 
 ## Background
 Before I jump in, let me provide some background on my reference platform. I use a Turtlebot2 (built on the [Kobuki platform](https://github.com/kobuki-base/kobuki_core)) with a [Hokuyo URG](https://www.hokuyo-aut.jp/search/single.php?serial=166) planar laser scanner for navigation. An [Intel RealSense D435](https://www.intelrealsense.com/depth-camera-d435/) camera provides RGB and depth images, and an Intel NUC provides the compute. The robot runs ROS 2 Humble, Iron, or Jazzy from a Docker container. There is no ROS installed natively on the robot. Not all of the Turtlebot2 packages are available as `apt` packages, so part of the container building process involves building those packages from source. Containers are built by a Jenkins instance and hosted on a private Docker registry. More details can be found in the [Dockerfile](https://github.com/ingotrobotics/turtlebot2_ros2/blob/main/turtlebot2_ros2.dockerfile).
@@ -83,7 +83,7 @@ The other major drawback is that the docker images are much larger now: A Zenoh-
 Another small personal benefit is that as a part of this work, I updated the Jenkinsfile to include Git branch names in the container tags. This was an open issue, and it feels good to close it.
 
 ## Commands and Files
-All files can be found at <https://github.com/ingotrobotics/turtlebot2_ros2/tree/feature/zenoh>. Issues, pull requests, and all other commentary are encouraged.
+All files can be found at [https://github.com/ingotrobotics/turtlebot2_ros2/tree/feature/zenoh](https://github.com/ingotrobotics/turtlebot2_ros2/tree/feature/zenoh). Issues, pull requests, and all other commentary are encouraged.
 
 To run the container on my robot, I use a command like
 ```
