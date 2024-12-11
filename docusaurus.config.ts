@@ -33,7 +33,9 @@ const config: Config = {
     [
       'classic',
       {
-        docs: false,
+        docs: {
+          sidebarPath: './sidebars.ts',
+        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -53,7 +55,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Cloud Robotics Hub',
@@ -64,13 +65,13 @@ const config: Config = {
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/meetings', label: 'Meetings', position: 'left'},
-        {to: '/resources', label: 'Resources', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'resourcesSidebar',
+          position: 'left',
+          label: 'Resources',
+        },
         {to: '/survey', label: 'State of Cloud Robotics', position: 'left'},
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
       ],
     },
     footer: {
