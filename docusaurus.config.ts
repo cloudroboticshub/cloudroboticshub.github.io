@@ -71,7 +71,6 @@ const config: Config = {
           position: 'left',
           label: 'Resources',
         },
-        // {to: '/resources', label: 'Resources', position: 'left'},
         {to: '/survey', label: 'State of Cloud Robotics', position: 'left'},
       ],
     },

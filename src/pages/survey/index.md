@@ -137,7 +137,7 @@ business scenarios, blocking issues or challenges
 
 > Are there good, low-latency open source communication protocols for the cloud, particularly for video rendering? Are there any ROS integrations with webserver backends (such as django)? 
 
-We will answer questions like this one in the [resources](/resources) section of the website. Please help us with your own experience / opinion.
+We will answer questions like this one in the [resources](/docs/resources/foreword) section of the website. Please help us with your own experience / opinion.
 
 > Are there any examples or demos that use multiple TurtleBot3 robots for multi-robot tasks?
 
