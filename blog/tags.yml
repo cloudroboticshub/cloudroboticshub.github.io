@@ -26,3 +26,7 @@ turtlebot:
   label: Turtlebot Platform
   permalink: /turtlebot
   description: Related to Turtlebot reference platforms, a series of mobile base robots frequently used to demonstrate indoor navigation
+kubeedge:
+  label: KubeEdge
+  permalink: /kubeedge
+  description: Related to KubeEdge, a platform built on Kubernetes that allows deployment of software to edge devices
