@@ -16,7 +16,7 @@ Resources used during the talk:
 - [Some examples to deploy ROS / ROS 2 with Kubernetes](https://github.com/fujitatomoya/ros_k8s)
 - [Next-generation Robotics Platform for Edge/Cloud](https://static.sched.com/hosted_files/colocatedeventsna2024/15/Cilium%2BeBPF-Day-NA_Cilium-with-KubeEdge.v0.pdf)
 
-Tomoya started by talking through the same slides he used for the demo he gave at ROSCon in 2023, about deploying ROS/ROS2 code using Kubernetes. He talked about enabling deploying to fleets of robots and the pain points that comes with it. He also spoke about using Kubernetes to automatically connect robots to cloud resources, such as API servers, as well as auto-scale those cloud resources.
+Tomoya started by talking through the same slides he used for the demo he gave at ROSCon in 2023, about deploying ROS/ROS2 code using Kubernetes. He talked about enabling deploying to fleets of robots and the pain points that come with it. He also spoke about using Kubernetes to automatically connect robots to cloud resources, such as API servers, as well as auto-scale those cloud resources.
 
 Next, Tomoya spoke about KubeEdge, which is built on Kubernetes and allows networking, application deployment, and metadata synchronization between cloud and edge nodes. KubeEdge can be used to configure ROS2 networks so nodes can talk to each other, and allows a user to interact with a robot fleet via cloud-based API servers, for example.
 
