@@ -12,23 +12,29 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## 2024-12-16 <mark>Upcoming Guest Talk</mark>: Robotics Platform empowered by Cloud-Native Technologies (Tomoya Fujita)
+## 2025-01-13 (Upcoming): General catch-up
 
-On Monday 16th December we will host a talk by [Tomoya Fujita](https://github.com/fujitatomoya),
+The group plans to meet and discuss the latest news in Cloud Robotics. Please come along if you want to catch up with others in the field!
+
+## 2024-12-16 Guest Talk: Robotics Platform empowered by Cloud-Native Technologies (Tomoya Fujita)
+
+In this meeting, we hosted a talk by by [Tomoya Fujita](https://github.com/fujitatomoya),
 a software engineer, contributor to ROS2 core, and well-respected community builder.
 
-Tomoya will talk about a range of Cloud-Native Technologies he has worked on, and their
+Tomoya talked about a range of Cloud-Native Technologies he has worked on, and their
 relevance to robotics. In particular, Tomoya has done a great deal of work on KubeEdge,
 a platform built on Kubernetes that can be used to deploy software to robots as if they
-are Kubernetes clusters. Some resources from his talk includes:
+are Kubernetes clusters. Some resources from his talk include:
 
 - [ROSCon 2023: ROS with Kubernetes / KubeEdge](https://roscon.ros.org/2023/talks/ROS_with_KubernetesKubeEdge.pdf)
 - [Some examples to deploy ROS / ROS 2 with Kubernetes](https://github.com/fujitatomoya/ros_k8s)
 - [Next-generation Robotics Platform for Edge/Cloud](https://static.sched.com/hosted_files/colocatedeventsna2024/15/Cilium%2BeBPF-Day-NA_Cilium-with-KubeEdge.v0.pdf)
 
-Tomoya also plans to leave time to discuss Cloud Robotics with the group, particularly the problems that people are having with Cloud Robotics.
+More information on the talk is available on the [blog post](/blog/tomoya-fujita-kubeedge), including a link to the recording posted on YouTube.
 
-If you are interested in seeing the talk, be sure to join on Monday 16th December from 1700-1800 UTC! The talk will also be recorded and uploaded to YouTube.
+If you are interested in seeing the entire meeting, the recording is available here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n-yn4ZKM5cQ?si=SX-fmVyN_LRUvcXV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2024-12-02 | Testing Eclipse Zenoh
 
