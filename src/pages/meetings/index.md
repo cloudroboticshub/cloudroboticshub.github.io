@@ -12,9 +12,24 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## 2025-01-13 (Upcoming): General catch-up
+## 2025-01-27 (Upcoming): Testing KubeEdge
 
-The group plans to meet and discuss the latest news in Cloud Robotics. Please come along if you want to catch up with others in the field!
+The group plans to meet to test out KubeEdge, having heard more about it
+from [Tomoya Fujita in a guest talk](/blog/tomoya-fujita-kubeedge).
+
+We will work together to find learning resources and try them out before giving
+our feedback to help improve KubeEdge.
+
+## 2025-01-13
+
+The group had a general discussion of the latest in robotics news, including
+NVIDIA Cosmos, the proliferation of humanoid robotics at present, what cloud
+robotics encompasses, and what to do in the next meeting. The group settled on
+doing a KubeEdge trial unless a guest speaker is available.
+
+If you would like to watch the meeting, you can see the recording below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bkyplWLAnN8?si=jn1_4_GoJe2Xvt8v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2024-12-16 Guest Talk: Robotics Platform empowered by Cloud-Native Technologies (Tomoya Fujita)
 
