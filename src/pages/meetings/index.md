@@ -12,13 +12,32 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## 2025-01-27 (Upcoming): Testing KubeEdge
+## 2025-02-10 (Upcoming): Testing KubeEdge (For Real, This Time)
 
 The group plans to meet to test out KubeEdge, having heard more about it
 from [Tomoya Fujita in a guest talk](/blog/tomoya-fujita-kubeedge).
 
+This is very similar to the plan for the last meeting, which was unfortunately
+cut short due to the group not having the prerequisites to test out KubeEdge.
+
 We will work together to find learning resources and try them out before giving
 our feedback to help improve KubeEdge.
+
+## 2025-01-27: Finding KubeEdge Prerequisites
+
+This meeting, the group planned to meet to test out KubeEdge. After the meeting
+started, the group realised that there were a number of prerequisites needed to
+try KubeEdge, including an active Kubernetes cluster (preferably in the cloud)
+and some hardware to deploy to, such as a Raspberry Pi with LED.
+
+The group agreed to set up the prerequisites and attempt the tryout session in
+the next session. The group also agreed that for future tryout sessions, they
+would read through prerequisites in advance to make sure the meeting can go
+ahead.
+
+If you would like to watch the meeting, you can see the recording below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/prVZw4cPT1U?si=_L1DTjXHWpVtmDXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-01-13
 
