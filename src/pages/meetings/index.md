@@ -12,16 +12,48 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## 2025-02-10 (Upcoming): Testing KubeEdge (For Real, This Time)
+## 2025-02-24 (Upcoming): General Catch-Up
 
-The group plans to meet to test out KubeEdge, having heard more about it
-from [Tomoya Fujita in a guest talk](/blog/tomoya-fujita-kubeedge).
+The group plans to meet to have a general catch-up about the world of cloud
+robotics. There is no fixed agenda to the meeting. Anyone is welcome to join and
+talk to the group, as in every meeting.
 
-This is very similar to the plan for the last meeting, which was unfortunately
-cut short due to the group not having the prerequisites to test out KubeEdge.
+## 2025-02-10: Testing KubeEdge (For Real, This Time)
 
-We will work together to find learning resources and try them out before giving
-our feedback to help improve KubeEdge.
+The group had their second meeting to try out KubeEdge, having heard more about
+it from [Tomoya Fujita in a guest talk](/blog/tomoya-fujita-kubeedge).
+
+Two of the members had some success with the prerequisites for KubeEdge, but
+neither were able to connect a Raspberry Pi to a cloud machine as an edge
+device. They were able to get a Kubernetes cluster connecting to another machine
+on the same network, treating it as an edge device and seeing ROS 2 traffic
+between the two machines.
+
+The group summarised their experience of KubeEdge:
+
+> We found KubeEdge to be conceptually very powerful, and the functionality we
+> did get working was very impressive. This looks to be an excellent way to
+> manage robots or other edge devices at an enterprise level. However, we did
+> have difficulties setting up KubeEdge for a Raspberry Pi at the edge. We think
+> the following might be helpful to get others onboarded with KubeEdge:
+
+> 1. It would be great to have a complete reference setup. Set up an EC2
+>    instance with an elastic IP, set up the K8s network from scratch, and get a
+>    Raspberry Pi (or VM on another machine) to join as an edge device.
+> 2. Some instructions in the setup documentation assume prior knowledge. For
+>    example, in the KubeEdge example led-raspberrypi, the last step is to
+>    change the device Twin attribute, but the instruction does not say how to
+>    do so.
+> 3. It would be good to have a way of setting up multicast for ROS 2 that
+>    doesn't require changes at the cluster admin level to adjust for changes in
+>    the ROS 2 network. For example, if the domain ID changes, a new multicast
+>    address must be enabled for the cluster, which requires cluster admin
+>    rights. The alternative is to configure both the multicast IP address and
+>    subscriber IP addresses for each pod, which is more complicated.
+
+If you would like to see the meeting recording, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pgsbo3-CbYg?si=rQKP-qI_lp2ZHmyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-01-27: Finding KubeEdge Prerequisites
 
