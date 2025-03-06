@@ -12,11 +12,13 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
+## 2025-03-10: No Meeting
+
+The group will not meet in the upcoming meeting slot, as the usual host will be recovering from eye surgery. Meetings will continue from 2025-03-24 as normal.
+
 ## 2025-02-24 (Upcoming): General Catch-Up
 
-The group plans to meet to have a general catch-up about the world of cloud
-robotics. There is no fixed agenda to the meeting. Anyone is welcome to join and
-talk to the group, as in every meeting.
+The group met with no agenda for the meeting. A summary of this meeting's discussion, along with the uploaded recording, will be uploaded at a later date.
 
 ## 2025-02-10: Testing KubeEdge (For Real, This Time)
 
