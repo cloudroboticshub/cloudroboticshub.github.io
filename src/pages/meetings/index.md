@@ -12,15 +12,38 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
+If you have an interesting topic of discussion for the group, please propose
+that topic using the [Github
+Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
+
+## 2025-04-21: Continue Discussion: Uploading Robot Data to the Cloud (Upcoming)
+
+In this meeting, the group plans to contiue their discussion on uploading robot
+data to the cloud. Together, we hope to create a reference document that
+developers can use to validate their use of cloud storage in their own projects.
+
+The group plans to create 2-3 example categories of robotics, then go through
+each category and note down the data we consider to be the most important to
+upload for cloud storage.
+
+Work will be carried out using the [Google
+Doc](https://docs.google.com/document/d/1kLqeBrKg0FgD0z2LoAgwufu_LryPktxgxVUlHmDsJII/edit?usp=drive_link)
+created in the last session.
+
 ## 2025-04-07: Discussion: Uploading Robot Data to the Cloud
 
-In this meeting, the group plans to discuss uploading robot data to the cloud.
-We plan to cover the possible benefits and drawbacks of uploading data, how we
-have seen data upload being done, and the kind of data that is best uploaded.
+The group used this meeting to discuss uploading robot data to the cloud.
+Together, they worked through the most useful information to convey to robotics
+developers, resulting in the start of a [Google
+Doc](https://docs.google.com/document/d/1kLqeBrKg0FgD0z2LoAgwufu_LryPktxgxVUlHmDsJII/edit?usp=drive_link)
+to organise the most important data by category of robotics. 
 
-Anyone is welcome to join in the discussion, or to propose future topics of
-discussion using the [Github
-Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
+The group finished by agreeing to continue the discussion in the following
+session.
+
+If you would like to see the meeting recording, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5FtWkRrpMyQ?si=HjPhciR7h6zckL5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-03-24: General Catch-Up
 
