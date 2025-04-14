@@ -12,12 +12,31 @@ information:
 - <a href="https://drive.google.com/drive/folders/1TkuaU2_9_QdL-u0pftaIGQu6ecTN5Ci1">Google Drive folder</a>, where we keep all of our public documents.
 - <a href="https://calendar.google.com/calendar/u/0/embed?src=c_3fc5c4d6ece9d80d49f136c1dcd54d7f44e1acefdbe87228c92ff268e85e2ea0@group.calendar.google.com">Open Robotics Community Calendar</a>, where you can sign up to receive calendar reminders of our meetings.
 
-## 2025-03-24 (Upcoming): General Catch-Up
+## 2025-04-07: Discussion: Uploading Robot Data to the Cloud
 
-The group plans to have a general catch-up about the world of cloud robotics, as
-well as reviewing the current progress of the group and the possibility of
-setting discussion topics for future meetings. Anyone is welcome to join and
-talk to the group, as in every meeting.
+In this meeting, the group plans to discuss uploading robot data to the cloud.
+We plan to cover the possible benefits and drawbacks of uploading data, how we
+have seen data upload being done, and the kind of data that is best uploaded.
+
+Anyone is welcome to join in the discussion, or to propose future topics of
+discussion using the [Github
+Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
+
+## 2025-03-24: General Catch-Up
+
+In this shorter session, two members met and discussed the use of LLMs in
+robotic and software development, then agreed on a new format that could be used
+in future sessions: proposing a discussion topic in advance and using the
+session to discuss that topic.
+
+Based on this agreement, a new [Github
+Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33)
+can be used to propose discussion topics for future meetings. Anyone can post to
+the issue and join in the discussion.
+
+If you would like to see the meeting recording, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KUM_wXCsDLI?si=Dr1QJbPxS49BlyVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-02-24: Robot Deployment Discussion
 
