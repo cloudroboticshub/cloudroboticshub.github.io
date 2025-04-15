@@ -16,7 +16,9 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-04-21: Continue Discussion: Uploading Robot Data to the Cloud (Upcoming)
+## 2025-05-05: Continue Discussion: Uploading Robot Data to the Cloud (Upcoming)
+
+*Note that there will be no meeting on 2025-04-21 due to Easter holidays.*
 
 In this meeting, the group plans to contiue their discussion on uploading robot
 data to the cloud. Together, we hope to create a reference document that
