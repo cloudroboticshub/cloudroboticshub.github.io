@@ -3,7 +3,7 @@
 This page lists all the meetings that have occurred as part of the
 working group.
 
-All meetings are public and held every two weeks from 1700-1800 UTC.
+All meetings are public and held every two weeks from 1600-1700 UTC.
 Please feel free to join us. There are some details below for extra
 information:
 - <a href="https://discourse.ros.org/tag/wg-cloud-robotics">ROS Discourse with tag wg-cloud-robotics.</a>
@@ -16,21 +16,34 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-05-05: Continue Discussion: Uploading Robot Data to the Cloud (Upcoming)
+## 2025-05-19: Ideas for Cloud Robotics Guides (Upcoming)
 
-*Note that there will be no meeting on 2025-04-21 due to Easter holidays.*
+**Note that the time for this meeting and future meetings has changed from
+1700-1800 UTC to 1600-1700 UTC.**
 
-In this meeting, the group plans to contiue their discussion on uploading robot
-data to the cloud. Together, we hope to create a reference document that
-developers can use to validate their use of cloud storage in their own projects.
+The group plans to meet to discuss writing public guides, made available through
+this site. The guides would be on a range of subjects, starting with uploading
+data to the cloud and using it successfully. The group will discuss other
+possible subjects for the site and categorise them based on how useful they are
+likely to be.
 
-The group plans to create 2-3 example categories of robotics, then go through
-each category and note down the data we consider to be the most important to
-upload for cloud storage.
+If you are interested in Cloud Robotics, come and have your say in what the most
+helpful guides would be for the whole community.
 
-Work will be carried out using the [Google
-Doc](https://docs.google.com/document/d/1kLqeBrKg0FgD0z2LoAgwufu_LryPktxgxVUlHmDsJII/edit?usp=drive_link)
-created in the last session.
+## 2025-05-05: Continued Discussion: Uploading Robot Data to the Cloud
+
+In this meeting, the group met to continue their discussion about uploading
+robot data to the cloud. They expanded from the previous discussion to include
+more important details about the data being uploaded, such as the moment it was
+captured versus an incident, to give one example.
+
+The group also discussed difficulties with cloud data collection, such as the
+difficulty of automatic anomaly detection, and how companies frequently have to
+build their own data collection solution to meet their needs.
+
+If you would like to see the meeting recording, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FAq7v2mkEEI?si=ehFeifE2_WdIcNc3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-04-07: Discussion: Uploading Robot Data to the Cloud
 
