@@ -30,3 +30,7 @@ kubeedge:
   label: KubeEdge
   permalink: /kubeedge
   description: Related to KubeEdge, a platform built on Kubernetes that allows deployment of software to edge devices
+community:
+  label: Community
+  permalink: /community
+  description: Related to the community, including any work to be published for the benefit of the community
