@@ -16,19 +16,33 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-05-19: Ideas for Cloud Robotics Guides (Upcoming)
+## 2025-06-02: Logging and Observability Preparation (Upcoming)
 
-**Note that the time for this meeting and future meetings has changed from
-1700-1800 UTC to 1600-1700 UTC.**
+The group plans to build up the knowledge for a community guide on Logging and
+Observability in Cloud Robotics. As part of this meeting, the group will pool
+their knowledge and list questions to ask experts in the field. We will then be
+able to reach out to experts, either questioning them directly, or inviting them
+to talk with the group at a future meeting.
 
-The group plans to meet to discuss writing public guides, made available through
-this site. The guides would be on a range of subjects, starting with uploading
-data to the cloud and using it successfully. The group will discuss other
-possible subjects for the site and categorise them based on how useful they are
-likely to be.
+The guide, once complete, will involve best practices of logging and
+observability, how to set it up, and the kind of value that can be obtained from
+it.
 
-If you are interested in Cloud Robotics, come and have your say in what the most
-helpful guides would be for the whole community.
+If you're interested in logging and/or observability, please come along and give
+your input for the guide.
+
+## 2025-05-19: Ideas for Cloud Robotics Guides
+
+The group met and used this time to discuss possible guides for publishing on
+Cloud Robotics Hub. This would make our expertise available to the
+public in an easily digestible format.
+
+As part of the meeting, we agreed to post a poll to the community to get a
+better idea of priority on each suggested topic. The results are in [this blog post](community-guide-priorities).
+
+If you would like to see the meeting recording, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vm5-B8y8kn8?si=AWtO1TdwmjQeFao6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-05-05: Continued Discussion: Uploading Robot Data to the Cloud
 
