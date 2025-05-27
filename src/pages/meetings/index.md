@@ -38,7 +38,7 @@ Cloud Robotics Hub. This would make our expertise available to the
 public in an easily digestible format.
 
 As part of the meeting, we agreed to post a poll to the community to get a
-better idea of priority on each suggested topic. The results are in [this blog post](community-guide-priorities).
+better idea of priority on each suggested topic. The results are in [this blog post](/blog/community-guide-priorities).
 
 If you would like to see the meeting recording, it is available on YouTube:
 
