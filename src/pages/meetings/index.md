@@ -16,20 +16,61 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-06-02: Logging and Observability Preparation (Upcoming)
+## 2025-06-16: Guest Expert Benji Barash from Roboto AI (Upcoming)
 
-The group plans to build up the knowledge for a community guide on Logging and
-Observability in Cloud Robotics. As part of this meeting, the group will pool
-their knowledge and list questions to ask experts in the field. We will then be
-able to reach out to experts, either questioning them directly, or inviting them
-to talk with the group at a future meeting.
+Benji Barash, Co-Founder and CEO at Roboto AI, has agreed to attend the next
+meeting of the Cloud Robotics Working Group.
 
-The guide, once complete, will involve best practices of logging and
-observability, how to set it up, and the kind of value that can be obtained from
-it.
+Benji leads Roboto AI, which provides an analytics engine for physical AI. The
+company focuses on searching, transforming, and analyzing data from robots at
+scale. Previously, Benji led engineering and science teams at Amazon Robotics,
+with a focus on simulation and autonomy.
 
-If you're interested in logging and/or observability, please come along and give
-your input for the guide.
+The working group is currently researching Logging & Observability for Cloud
+Robotics and has invited Benji as a guest expert to share his insights and
+answer questions. The meeting will take the form of an open conversation, as the
+group gathers input in preparation for drafting a community guide on the topic.
+
+*If you're interested in Logging & Observability, or you would like to hear from
+our guest expert, everyone is welcome! Details of the meeting are at the top of
+the page.*
+
+## 2025-06-02: Logging and Observability Preparation
+
+The group met to start researching Logging & Observability, with the intention
+of gathering information for a community guide on the subject. Collectively,
+they gathered the following points to consider going forwards:
+
+- **Format for recording logs and data**: structured data? Unstructured? Strings? JSON? Rosbags?
+- **Online vs offline data upload**: collecting data offline for uploading later
+- **Automatic incident detection**: is data collection constant, or triggered by
+  a specific event, or possibly by a developer?
+- **Message publishing frequency**: a slower message publishing frequency often
+  indicates a system issue.
+- **Cause of Issue**: determining the cause of the issue, if there is one.
+- **Publishing Protocol**: MQTT, ROS2 topics, HTTP, or other. Advantages and
+  disadvantages of each method.
+- **On demand vs constant logging**
+- **Interfacing with observability tools**: publishing or formatting data to be
+  compatible with observability tools such as Prometheus
+- **Live visualisation tools**: pros and cons of different tools such as RViz
+  and Foxglove. For example, Foxglove can provide a web link, which is easier to
+  share to other team members.
+- **Levels of data upload**: minimal upload such as basic logs; rosbags with
+  debug data; developer-triggered upload of all robot information.
+- **Custom downsampling**: topics can be downsampled depending on the quantity
+  of data and the bandwidth available. Another option is to extract important
+  information, such as the closest lidar point or the classes recognised from
+  the camera, to reduce the data uploaded.
+- **Target user of data**: who will make use of the data? This affects how the
+  data is presented and used.
+
+The group ended by discussing potential guest experts that could help provide
+information and insights for the guide.
+
+If you would like to see the meeting recording, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WtzYUt8ZA0c?si=STIRBLiAtXIfxyIN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-05-19: Ideas for Cloud Robotics Guides
 
