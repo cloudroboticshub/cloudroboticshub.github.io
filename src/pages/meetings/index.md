@@ -6,6 +6,7 @@ working group.
 All meetings are public and held every two weeks from 1600-1700 UTC.
 Please feel free to join us. There are some details below for extra
 information:
+
 - <a href="https://discourse.ros.org/tag/wg-cloud-robotics">ROS Discourse with tag wg-cloud-robotics.</a>
 - <a href="https://groups.google.com/g/cloud-robotics-working-group-invites">Google Group</a>, where you can sign up to be notified of future updates.
 - <a href="https://meet.google.com/xox-nshv-uvm">Google Meet room</a>, where we meet online.
@@ -16,24 +17,42 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-06-16: Guest Expert Benji Barash from Roboto AI (Upcoming)
+I don't know what to do. Anomaly detection is probably a good discussion topic,
+but Giovanni isn't going to be here. Antoine isn't either. We can just discuss
+what we've found so far, I guess?
 
-Benji Barash, Co-Founder and CEO at Roboto AI, has agreed to attend the next
-meeting of the Cloud Robotics Working Group.
+Or just not have the session. Because people can't come.
+
+Seems like a shame to hold off on it. Maybe discuss how we've done so far?
+
+
+## 2025-06-30: Logging & Observability Discussion (Upcoming)
+
+In the upcoming session, the group plans to go over the research performed to
+this date. This includes the first preparation session and the previous session,
+where we hosted a discussion with Benji Barash, Co-Founder and CEO of Roboto.AI.
+
+This will be a quieter, more relaxed session, as some of the members are unable
+to attend.
+
+## 2025-06-16: Guest Expert Benji Barash from Roboto AI
+
+The group invited guest expert Benji Barash, Co-Founder and CEO at Roboto AI, to
+discuss Logging & Observability.
 
 Benji leads Roboto AI, which provides an analytics engine for physical AI. The
 company focuses on searching, transforming, and analyzing data from robots at
 scale. Previously, Benji led engineering and science teams at Amazon Robotics,
 with a focus on simulation and autonomy.
 
-The working group is currently researching Logging & Observability for Cloud
-Robotics and has invited Benji as a guest expert to share his insights and
-answer questions. The meeting will take the form of an open conversation, as the
-group gathers input in preparation for drafting a community guide on the topic.
+The meeting became more of a presentation and Q&A, as Benji had slides and demos
+ready to run. He showed very impressive tech from Roboto.AI, including the
+ability to select a clip of robot data and search other datasets for similar
+clips to find similar motions! 
 
-*If you're interested in Logging & Observability, or you would like to hear from
-our guest expert, everyone is welcome! Details of the meeting are at the top of
-the page.*
+The full meeting recording is available below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9Hr_G9fvHhQ?si=nODZkjl3cea982cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-06-02: Logging and Observability Preparation
 
@@ -106,7 +125,7 @@ The group used this meeting to discuss uploading robot data to the cloud.
 Together, they worked through the most useful information to convey to robotics
 developers, resulting in the start of a [Google
 Doc](https://docs.google.com/document/d/1kLqeBrKg0FgD0z2LoAgwufu_LryPktxgxVUlHmDsJII/edit?usp=drive_link)
-to organise the most important data by category of robotics. 
+to organise the most important data by category of robotics.
 
 The group finished by agreeing to continue the discussion in the following
 session.
@@ -286,6 +305,7 @@ Find the full meeting recording below.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qu3Nb416Dpk?si=n4HWA5s4yG9ePs3H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2024-09-09
+
 The group discussed the launch of the new Cloud Robotics Hub
 site and discussed potential improvements. Akash Vibhute from Intrinsic/OpenRMF attended and we discussed him possibly presenting to the group, potentially along the lines of his upcoming ROSCon talk.
 
@@ -301,8 +321,10 @@ site and discussed potential improvements. Akash Vibhute from Intrinsic/OpenRMF 
 ></iframe>
 
 ## 2024-08-26
+
 This meeting, the group discussed updates on the hub site, then
 talked about the work occurring in academia for cloud robotics.
+
 <iframe
   width="560"
   height="315"
@@ -353,7 +375,6 @@ Christian Fritz of <a href="https://transitiverobotics.com/">Transitive Robotics
 from <a href="https://vimeo.com/osrfoundation">Open Robotics</a> on{" "}
 <a href="https://vimeo.com">Vimeo</a>.
 
-
 ## 2024-07-15
 
 This meeting was the first meeting following the new format. The
@@ -401,7 +422,6 @@ of Cloud Robotics Survey.
 from <a href="https://vimeo.com/osrfoundation">Open Robotics</a> on{" "}
 <a href="https://vimeo.com">Vimeo</a>.
 
-
 ## 2024-05-20
 
 This meeting, we continued to process our survey results, and
@@ -431,7 +451,6 @@ survey results.
 from <a href="https://vimeo.com/osrfoundation">Open Robotics</a> on{" "}
 <a href="https://vimeo.com">Vimeo</a>.
 
-
 ## 2024-04-22
 
 We used this meeting to continue drafting the questionnaire from the
@@ -452,7 +471,6 @@ previous meeting.
 </a>{" "}
 from <a href="https://vimeo.com/osrfoundation">Open Robotics</a> on{" "}
 <a href="https://vimeo.com">Vimeo</a>.
-
 
 ## 2024-04-08
 
@@ -482,7 +500,6 @@ of slides that laid out that strategy. The slides are available <a href="https:/
 </a>{" "}
 from <a href="https://vimeo.com/osrfoundation">Open Robotics</a> on <a href="https://vimeo.com">Vimeo</a>.
 
-
 ## 2024-02-26 Talk: Asimovo (Christine Fraser)
 
 This was our first meeting as a community working group. We
@@ -504,4 +521,3 @@ Christine Fraser and Ludo Stellingwerff from{" "}
 </a>{" "}
 from <a href="https://vimeo.com/osrfoundation">Open Robotics</a> on{" "}
 <a href="https://vimeo.com">Vimeo</a>.
-
