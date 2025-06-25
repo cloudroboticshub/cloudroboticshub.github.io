@@ -17,15 +17,6 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-I don't know what to do. Anomaly detection is probably a good discussion topic,
-but Giovanni isn't going to be here. Antoine isn't either. We can just discuss
-what we've found so far, I guess?
-
-Or just not have the session. Because people can't come.
-
-Seems like a shame to hold off on it. Maybe discuss how we've done so far?
-
-
 ## 2025-06-30: Logging & Observability Discussion (Upcoming)
 
 In the upcoming session, the group plans to go over the research performed to
