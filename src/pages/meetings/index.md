@@ -17,14 +17,19 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-06-30: Logging & Observability Discussion (Upcoming)
+## 2025-06-30: Logging & Observability Discussion ~~(Upcoming)~~ **CANCELLED**
 
-In the upcoming session, the group plans to go over the research performed to
+This meeting is cancelled as the host is unwell. Meetings will resumse as normal
+from the 14th July.
+
+Previous text:
+
+*In the upcoming session, the group plans to go over the research performed to
 this date. This includes the first preparation session and the previous session,
-where we hosted a discussion with Benji Barash, Co-Founder and CEO of Roboto.AI.
+where we hosted a discussion with Benji Barash, Co-Founder and CEO of Roboto.AI.*
 
-This will be a quieter, more relaxed session, as some of the members are unable
-to attend.
+*This will be a quieter, more relaxed session, as some of the members are unable
+to attend.*
 
 ## 2025-06-16: Guest Expert Benji Barash from Roboto AI
 
