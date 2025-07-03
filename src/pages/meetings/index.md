@@ -17,6 +17,23 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
+## 2025-07-14: Guest Expert Bruno Mendes De Silva from Heex Technologies
+
+The group has invited [Bruno Mendes De
+Silva](https://www.linkedin.com/in/brunomendesdasilva/) to join us at the next
+meeting as a guest expert in Logging and Observability.
+
+Bruno is the Co-Founder and CEO of [Heex Technologies](https://www.heex.io/), 
+which is a cloud data platform accelerating Physical AI adoption. The company
+helps customers with their autonomous systems by collecting and presenting only
+the most relevant data for a required view.
+
+In the meeting, Bruno will talk more about Heex Technologies, plus discuss
+Logging & Observability with the group to help us build our planned community
+guide on the subject.
+
+Come and join us to hear more and get your questions answered by an expert!
+
 ## 2025-06-30: Logging & Observability Discussion ~~(Upcoming)~~ **CANCELLED**
 
 This meeting is cancelled as the host is unwell. Meetings will resumse as normal
