@@ -17,10 +17,21 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
+## 2025-07-28: Trying Out Heex and Discussing Anomaly Detection (Upcoming)
+
+In this meeting, the group plans to try out the tech demo from Heex
+Technologies, which is available from [their website](https://www.heex.io/). We
+will gather feedback to send back to the company, and also use the knowledge
+gained from the demo to further our discussion on anomaly detection, which has
+emerged as a crucial topic when discussing Logging & Observability.
+
+If you'd like to try out the offering from Heex, or you're interested in
+discussing anomaly detection further, please come and join us!
+
 ## 2025-07-14: Guest Expert Bruno Mendes De Silva from Heex Technologies
 
-The group has invited [Bruno Mendes De
-Silva](https://www.linkedin.com/in/brunomendesdasilva/) to join us at the next
+The group invited [Bruno Mendes De
+Silva](https://www.linkedin.com/in/brunomendesdasilva/) to join us at this
 meeting as a guest expert in Logging and Observability.
 
 Bruno is the Co-Founder and CEO of [Heex Technologies](https://www.heex.io/), 
@@ -28,15 +39,18 @@ which is a cloud data platform accelerating Physical AI adoption. The company
 helps customers with their autonomous systems by collecting and presenting only
 the most relevant data for a required view.
 
-In the meeting, Bruno will talk more about Heex Technologies, plus discuss
-Logging & Observability with the group to help us build our planned community
-guide on the subject.
+Bruno and Benoit Hozjan, who is a Project Manager in charge of customer
+experience, presented Heex Technologies together. First they discussed the
+company and the purpose of the service, then they demonstrated a showcase
+workspace for the visualisation and anomaly detection capabilities.
 
-Come and join us to hear more and get your questions answered by an expert!
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kw7npoC36GY?si=2SKGsQQVI28gZx9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-06-30: Logging & Observability Discussion ~~(Upcoming)~~ **CANCELLED**
 
-This meeting is cancelled as the host is unwell. Meetings will resumse as normal
+This meeting is cancelled as the host is unwell. Meetings will resume as normal
 from the 14th July.
 
 Previous text:
