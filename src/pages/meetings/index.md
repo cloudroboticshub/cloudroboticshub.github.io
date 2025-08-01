@@ -17,16 +17,39 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-07-28: Trying Out Heex and Discussing Anomaly Detection (Upcoming)
+## 2025-08-11: Arun Venkatadri and Shouheng Yi present Bagel (Upcoming)
 
-In this meeting, the group plans to try out the tech demo from Heex
-Technologies, which is available from [their website](https://www.heex.io/). We
-will gather feedback to send back to the company, and also use the knowledge
-gained from the demo to further our discussion on anomaly detection, which has
-emerged as a crucial topic when discussing Logging & Observability.
+In this meeting, guest speakers 
+[Arun Venkatadri](https://www.linkedin.com/in/arunvenkatadri/) and 
+[Shouheng Yi](https://www.linkedin.com/in/shouhengyi/) have agreed to present
+a new open source project called [Bagel](https://github.com/shouhengyi/bagel).
+*While both speakers are key members of
+[Model-Prime](https://www.model-prime.com/), the Bagel project is not affiliated
+with Model-Prime.*
 
-If you'd like to try out the offering from Heex, or you're interested in
-discussing anomaly detection further, please come and join us!
+Bagel lets you chat with your robotics data by using AI to search through
+recorded data. This is particularly relevant given the group has recently been
+researching Logging & Observability in preparation to write a community guide on
+the same subject.
+
+Our speakers will talk about the project and its purpose, as well as
+demonstrating some of the features it has available, before taking questions.
+
+If you're interested to hear more about how AI can interact with robot data,
+come along and hear more for yourself!
+
+## 2025-07-28: Trying Out Heex and Discussing Anomaly Detection
+
+In this meeting, the group signed up for an account on the [Heex Technologies
+website](https://www.heex.io/) to test out the services provided. We read
+through the different features of the service, including creating a new robot,
+then worked through the accompanying documentation to generate fake high
+velocity events. The group then visualised the events with the service, learning
+more about how the triggers worked in the process.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1OzLvkKATxM?si=R67Brvhdh3IAH2KO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-07-14: Guest Expert Bruno Mendes De Silva from Heex Technologies
 
