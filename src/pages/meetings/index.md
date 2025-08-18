@@ -17,11 +17,18 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-08-11: Arun Venkatadri and Shouheng Yi present Bagel (Upcoming)
+## 2025-08-25: Logging & Observability Review (Upcoming)
+
+In this meeting, the group plans to review the research performed so far into
+Logging & Observability. We have hostedn guest speakers from three
+organisations and plan to review our findings so far and consider what to look
+into next.
+
+## 2025-08-11: Arun Venkatadri and Shouheng Yi present Bagel
 
 In this meeting, guest speakers 
 [Arun Venkatadri](https://www.linkedin.com/in/arunvenkatadri/) and 
-[Shouheng Yi](https://www.linkedin.com/in/shouhengyi/) have agreed to present
+[Shouheng Yi](https://www.linkedin.com/in/shouhengyi/) presented
 a new open source project called [Bagel](https://github.com/shouhengyi/bagel).
 *While both speakers are key members of
 [Model-Prime](https://www.model-prime.com/), the Bagel project is not affiliated
@@ -32,11 +39,16 @@ recorded data. This is particularly relevant given the group has recently been
 researching Logging & Observability in preparation to write a community guide on
 the same subject.
 
-Our speakers will talk about the project and its purpose, as well as
-demonstrating some of the features it has available, before taking questions.
+Our guests spoke about the motivation behind the project before showing a
+technical demo, then answering questions from the group. In particular, we were
+interested in the pitfalls of using LLMs to understand structured data, and went
+into depth on this point. Arun has stated that the conversation inspired
+progress on the project and hopes to return in a future session to show a
+solution.
 
-If you're interested to hear more about how AI can interact with robot data,
-come along and hear more for yourself!
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ouBynOnHrYo?si=e1OSDm2ZfMAJHOPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-07-28: Trying Out Heex and Discussing Anomaly Detection
 
