@@ -17,12 +17,23 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
+## 2025-09-08: Summer Holiday
+
+The group will not meet on this date, due to the number of members unable to
+attend. Meetings will resume from the 22nd September.
+
 ## 2025-08-25: Logging & Observability Review (Upcoming)
 
-In this meeting, the group plans to review the research performed so far into
-Logging & Observability. We have hostedn guest speakers from three
-organisations and plan to review our findings so far and consider what to look
-into next.
+In this meeting, the CRWG discussed the similarities and differences between the
+tech of the companies that had come to talk about Logging & Observability. The
+group agreed that we need to talk to consumers of these technologies, so effort
+will be made to contact some of the companies with large fleets to request they
+talk to us. We can also release a summary of our findings so far to ask the
+community if they approve of the direction taken and the information gathered.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h6qUVjmb7q0?si=nbnPS54QvLSDvzXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-08-11: Arun Venkatadri and Shouheng Yi present Bagel
 
