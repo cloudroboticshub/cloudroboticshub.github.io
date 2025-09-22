@@ -17,12 +17,22 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
+## 2025-09-24: Automated Anomaly Detection Discussion
+
+In this meeting, the group plans to have an informal discussion primarily around
+automated anomaly detection, which we have identified as a useful but difficult
+area of Logging & Observability. We will discuss the methods used by our
+previous guest speakers and our own ideas for potential methods.
+
+**Please note that the meeting day has changed for the CRWG. Previous meetings
+were on Monday; they are now on Wednesday at the same time.**
+
 ## 2025-09-08: Summer Holiday
 
 The group will not meet on this date, due to the number of members unable to
 attend. Meetings will resume from the 22nd September.
 
-## 2025-08-25: Logging & Observability Review (Upcoming)
+## 2025-08-25: Logging & Observability Review
 
 In this meeting, the CRWG discussed the similarities and differences between the
 tech of the companies that had come to talk about Logging & Observability. The
