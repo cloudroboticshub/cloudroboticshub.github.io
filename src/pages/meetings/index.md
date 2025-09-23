@@ -19,7 +19,13 @@ Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33)
 
 ## 2025-09-24: ROSBag MCP Server Research Presentation
 
-In this meeting, the group plans to host a presentation on ROSBag MCP Servers from [Lei Fu](https:www.linkedin.com/in/leifu6968) and [Sahar Slimpour](https:www.linkedin.com/in/saharsalimpour), from the University of Zurich and University of Turku respectively. This research has been shared in a [ROS Discourse post](https://discourse.openrobotics.org/t/another-mcp-server-to-analyze-your-rosbags-with-llms-a-ui-to-benchmark-it-against-different-llm-providers/49897), and the authors have agreed to come and tell us more about it.
+In this meeting, the group plans to host a presentation on ROSBag MCP Servers
+from [Lei Fu](https:www.linkedin.com/in/leifu6968) and [Sahar
+Slimpour](https:www.linkedin.com/in/saharsalimpour), from the Zurich University
+of Applied Sciences and University of Turku respectively. This research has been
+shared in a [ROS Discourse
+post](https://discourse.openrobotics.org/t/another-mcp-server-to-analyze-your-rosbags-with-llms-a-ui-to-benchmark-it-against-different-llm-providers/49897),
+and the authors have agreed to come and tell us more about it.
 
 **Please note that the meeting day has changed for the CRWG. Previous meetings
 were on Monday; they are now on Wednesday at the same time.**
