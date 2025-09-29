@@ -17,18 +17,43 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-09-24: ROSBag MCP Server Research Presentation
+## 2025-10-08: AMP with Carter Schultz (Upcoming)
 
-In this meeting, the group plans to host a presentation on ROSBag MCP Servers
-from [Lei Fu](https:www.linkedin.com/in/leifu6968) and [Sahar
-Slimpour](https:www.linkedin.com/in/saharsalimpour), from the Zurich University
-of Applied Sciences and University of Turku respectively. This research has been
-shared in a [ROS Discourse
-post](https://discourse.openrobotics.org/t/another-mcp-server-to-analyze-your-rosbags-with-llms-a-ui-to-benchmark-it-against-different-llm-providers/49897),
-and the authors have agreed to come and tell us more about it.
+The CRWG is pleased to welcome [Carter
+Schultz](https://www.linkedin.com/in/carter-builds-robots/) of
+[AMP](https://ampsortation.com/) to our next meeting. AMP
+is working to modernise global recycling infrastructure with AI‑driven
+robotics. Carter will share the company’s vision and, in particular, the key
+challenges it faces when operating a large fleet of autonomous robots.
 
 **Please note that the meeting day has changed for the CRWG. Previous meetings
 were on Monday; they are now on Wednesday at the same time.**
+
+## 2025-09-24: ROSBag MCP Server Research Presentation
+
+In this meeting, guest speakers [Lei Fu](https:www.linkedin.com/in/leifu6968) and [Sahar
+Slimpour](https:www.linkedin.com/in/saharsalimpour), from the Zurich University
+of Applied Sciences and University of Turku respectively, joined the CRWG to
+talk about their ROSBag MCP Server research (also shared in [ROS
+Discourse](https://discourse.openrobotics.org/t/another-mcp-server-to-analyze-your-rosbags-with-llms-a-ui-to-benchmark-it-against-different-llm-providers/49897)). 
+
+The speakers discussed comparing different LLM models for analysing and
+reporting on recorded robot data. Due to how large robot datasets are, they
+often exceed LLM context limits, which makes the work challenging. To help, the
+speakers built a tool called MCP Lab which helped show different stats about LLM
+responses, such as time taken, tokens used, and so on. 
+
+The speakers also showed a live demo, where different LLM models could be
+selected to summarise robot performance or perform more complex tasks, like
+identifying if any objects came closer than a fixed distance over the dataset. 
+
+Finally, the CRWG asked questions about the research, such as how to trust
+answers from the LLM when it was occasionally wrong, and possible future
+features for the MCP Lab.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/29xw0kuselc?si=a7EnwQLwRtnvoT6H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-09-08: Summer Holiday
 
