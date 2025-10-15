@@ -17,17 +17,45 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-10-08: AMP with Carter Schultz (Upcoming)
+## 2025-10-22: INSAION with Sergi Grau-Moya and Victor Massagué Respall (Upcoming)
 
-The CRWG is pleased to welcome [Carter
+The CRWG is pleased to welcome [Sergi
+Grau-Moya](https://www.linkedin.com/in/sergi-grau-moya-310749158/), Co-founder
+and CEO of [INSAION](https://www.insaion.com/), and [Victor Massagué
+Respall](https://www.linkedin.com/in/sergi-grau-moya-310749158/), Co-founder and
+CTO of INSAION, to our next meeting. INSAION provides an observability platform
+for your robot fleet, allowing users to optimise robot operations and explore
+advanced robot diagnostics. Sergi will share the purpose of the company and show
+some of the capabilities of the software, to add to the group's research of
+Logging & Observability.
+
+## 2025-10-08: AMP with Carter Schultz
+
+In this meeting, [Carter
 Schultz](https://www.linkedin.com/in/carter-builds-robots/) of
-[AMP](https://ampsortation.com/) to our next meeting. AMP
-is working to modernise global recycling infrastructure with AI‑driven
-robotics. Carter will share the company’s vision and, in particular, the key
-challenges it faces when operating a large fleet of autonomous robots.
+[AMP](https://ampsortation.com/) came to discuss how the company manages large
+deployments and the pain points they see from doing so.
 
-**Please note that the meeting day has changed for the CRWG. Previous meetings
-were on Monday; they are now on Wednesday at the same time.**
+This was a fascinating talk and highlighted a lot of issues that AMP had to
+hand-build solutions for. Carter also spoke about how many of the newer tools
+available on the market now do not fit well into their architecture, which makes
+them less enticing to adopt.
+
+Some key takeaways for the group included:
+
+- Don't put metrics in logs! If you need state, put it on a topic, then egress
+  through the topic. Logs should always serve a purpose.
+- Build alerts with an action that can resolve them. Operations managers will
+  start to ignore red alerts if there's never something they can do to resolve
+  them.
+
+The CRWG had a lot of questions about the talk afterwards, such as whether newer
+technologies would be useful if AMP was starting up now, and how AMP manages
+redundant data uploads.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gb5eF54f_5M?si=1l3weBOb4gwMnnpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-09-24: ROSBag MCP Server Research Presentation
 
@@ -35,17 +63,17 @@ In this meeting, guest speakers [Lei Fu](https:www.linkedin.com/in/leifu6968) an
 Slimpour](https:www.linkedin.com/in/saharsalimpour), from the Zurich University
 of Applied Sciences and University of Turku respectively, joined the CRWG to
 talk about their ROSBag MCP Server research (also shared in [ROS
-Discourse](https://discourse.openrobotics.org/t/another-mcp-server-to-analyze-your-rosbags-with-llms-a-ui-to-benchmark-it-against-different-llm-providers/49897)). 
+Discourse](https://discourse.openrobotics.org/t/another-mcp-server-to-analyze-your-rosbags-with-llms-a-ui-to-benchmark-it-against-different-llm-providers/49897)).
 
 The speakers discussed comparing different LLM models for analysing and
 reporting on recorded robot data. Due to how large robot datasets are, they
 often exceed LLM context limits, which makes the work challenging. To help, the
 speakers built a tool called MCP Lab which helped show different stats about LLM
-responses, such as time taken, tokens used, and so on. 
+responses, such as time taken, tokens used, and so on.
 
 The speakers also showed a live demo, where different LLM models could be
 selected to summarise robot performance or perform more complex tasks, like
-identifying if any objects came closer than a fixed distance over the dataset. 
+identifying if any objects came closer than a fixed distance over the dataset.
 
 Finally, the CRWG asked questions about the research, such as how to trust
 answers from the LLM when it was occasionally wrong, and possible future
@@ -75,13 +103,13 @@ If you'd like to see the meeting, it is available on YouTube:
 
 ## 2025-08-11: Arun Venkatadri and Shouheng Yi present Bagel
 
-In this meeting, guest speakers 
-[Arun Venkatadri](https://www.linkedin.com/in/arunvenkatadri/) and 
+In this meeting, guest speakers
+[Arun Venkatadri](https://www.linkedin.com/in/arunvenkatadri/) and
 [Shouheng Yi](https://www.linkedin.com/in/shouhengyi/) presented
 a new open source project called [Bagel](https://github.com/shouhengyi/bagel).
-*While both speakers are key members of
+_While both speakers are key members of
 [Model-Prime](https://www.model-prime.com/), the Bagel project is not affiliated
-with Model-Prime.*
+with Model-Prime._
 
 Bagel lets you chat with your robotics data by using AI to search through
 recorded data. This is particularly relevant given the group has recently been
@@ -118,7 +146,7 @@ The group invited [Bruno Mendes De
 Silva](https://www.linkedin.com/in/brunomendesdasilva/) to join us at this
 meeting as a guest expert in Logging and Observability.
 
-Bruno is the Co-Founder and CEO of [Heex Technologies](https://www.heex.io/), 
+Bruno is the Co-Founder and CEO of [Heex Technologies](https://www.heex.io/),
 which is a cloud data platform accelerating Physical AI adoption. The company
 helps customers with their autonomous systems by collecting and presenting only
 the most relevant data for a required view.
@@ -139,12 +167,12 @@ from the 14th July.
 
 Previous text:
 
-*In the upcoming session, the group plans to go over the research performed to
+_In the upcoming session, the group plans to go over the research performed to
 this date. This includes the first preparation session and the previous session,
-where we hosted a discussion with Benji Barash, Co-Founder and CEO of Roboto.AI.*
+where we hosted a discussion with Benji Barash, Co-Founder and CEO of Roboto.AI._
 
-*This will be a quieter, more relaxed session, as some of the members are unable
-to attend.*
+_This will be a quieter, more relaxed session, as some of the members are unable
+to attend._
 
 ## 2025-06-16: Guest Expert Benji Barash from Roboto AI
 
@@ -159,7 +187,7 @@ with a focus on simulation and autonomy.
 The meeting became more of a presentation and Q&A, as Benji had slides and demos
 ready to run. He showed very impressive tech from Roboto.AI, including the
 ability to select a clip of robot data and search other datasets for similar
-clips to find similar motions! 
+clips to find similar motions!
 
 The full meeting recording is available below.
 
