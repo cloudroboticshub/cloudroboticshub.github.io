@@ -17,17 +17,31 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-10-22: INSAION with Sergi Grau-Moya and Victor Massagué Respall (Upcoming)
+## 2025-11-05: General Catch-Up (Upcoming)
 
-The CRWG is pleased to welcome [Sergi
+In this meeting, the CRWG plans to meet and have a general catch-up about Cloud
+Robotics. This includes reviewing the past few sessions with guest talks, and
+how they contribute to our overall goal of building a Logging & Observability
+community guide.
+
+## 2025-10-22: INSAION with Sergi Grau-Moya and Victor Massagué Respall
+
+In this meeting, [Sergi
 Grau-Moya](https://www.linkedin.com/in/sergi-grau-moya-310749158/), Co-founder
 and CEO of [INSAION](https://www.insaion.com/), and [Victor Massagué
 Respall](https://www.linkedin.com/in/sergi-grau-moya-310749158/), Co-founder and
-CTO of INSAION, to our next meeting. INSAION provides an observability platform
-for your robot fleet, allowing users to optimise robot operations and explore
-advanced robot diagnostics. Sergi will share the purpose of the company and show
-some of the capabilities of the software, to add to the group's research of
-Logging & Observability.
+CTO of INSAION, presented the INSAION platform to the group. This platform is an
+observability platform for your robot fleet, allowing users to optimise robot
+operations and explore advanced robot diagnostics. It also has some very
+impressive visualisations!
+
+The group then had time to ask follow-up questions, including what big takeaways
+INSAION had from customer conversations, and how to maintain a log of previous
+resolutions to apply to future issues.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zhIZoBRWFr4?si=UEmGWBH0Hh5gOgCV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-10-08: AMP with Carter Schultz
 
