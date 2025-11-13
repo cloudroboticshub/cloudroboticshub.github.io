@@ -17,12 +17,21 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-11-05: General Catch-Up (Upcoming)
+## 2025-11-19: ROSCon Review (Upcoming)
 
-In this meeting, the CRWG plans to meet and have a general catch-up about Cloud
-Robotics. This includes reviewing the past few sessions with guest talks, and
-how they contribute to our overall goal of building a Logging & Observability
-community guide.
+In this meeting, the CRWG plans to discuss the sessions that happened at ROSCon.
+This will include reading abstracts of interesting sessions to generate a
+summary from a Logging & Observability perspective.
+
+## 2025-11-05: General Catch-Up
+
+The CRWG used this meeting to have a general catch-up. They answered some
+questions about the use of cloud to view remote video data, and discussed the
+past few sessions. The group also decided to have a ROSCon review session.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wz4TZ-YLTJI?si=cjalzOyd-CUkZLnP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-10-22: INSAION with Sergi Grau-Moya and Victor Massagué Respall
 
