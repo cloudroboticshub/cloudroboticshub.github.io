@@ -17,11 +17,20 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2025-11-19: ROSCon Review (Upcoming)
+## 2025-12-03: No Session
 
-In this meeting, the CRWG plans to discuss the sessions that happened at ROSCon.
-This will include reading abstracts of interesting sessions to generate a
-summary from a Logging & Observability perspective.
+The group will be skipping this session as some members are unavailable.
+
+## 2025-11-19: ROSCon Review
+
+In this meeting, the group looked at the talks listed for ROSCon, examining the
+description of each for any that would be relevant to Logging & Observability,
+the current focus of the group. Next session will dive deeper into the talks to
+pull out interesting tips for a blog post.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T8LkzrgmuzM?si=9T0rYXaJA8lwyAjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-11-05: General Catch-Up
 
