@@ -17,6 +17,14 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
+## 2025-12-17: ROSCon Review Continued (Upcoming)
+
+In this meeting, the group plans to dive deeper into the ROSCon talks collected
+together during the last session. By examining more details about the talks, the
+group can highlight any that would be relevant to Logging & Observability, the
+current focus of the group. We can also pull out interesting tips to release as
+part of a blog post.
+
 ## 2025-12-03: No Session
 
 The group will be skipping this session as some members are unavailable.
