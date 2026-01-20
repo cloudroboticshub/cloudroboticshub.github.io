@@ -17,13 +17,30 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-01-14: ROSCon Review Continued (Upcoming)
+## 2026-01-28: Canonical Observability Stack with Guillaume Beuzeboc (Upcoming)
 
-In this meeting, the group plans to dive deeper into the ROSCon talks collected
-together during the last session. By examining more details about the talks, the
-group can highlight any that would be relevant to Logging & Observability, the
-current focus of the group. We can also pull out interesting tips to release as
-part of a blog post.
+For this session, the CRWG has invited [Guillaume
+Beuzeboc](https://www.linkedin.com/in/guillaume-beuzeboc/) from
+[Canonical](https://canonical.com/) to present on the [Canonical Observability
+Stack
+(COS)](https://canonical-robotics.readthedocs-hosted.com/en/latest/explanations/observability/what-is-cos-for-robotics/).
+COS is a general observability stack for devices such as drones, robots, and IoT
+devices. It operates from telemetry data, and the COS team has extended it to
+support robot-specific use cases. Guillaume, a software engineer at Canonical,
+previously presented COS at ROSCon 2025 and has kindly agreed to join this
+meeting to discuss additional technical details with the CRWG. 
+
+## 2026-01-14: ROSCon Review Continued
+
+In this meeting, the group reviewed the list of ROSCon talks collected from the
+previous session. They reviewed the talks most likely to be relevant to Logging
+& Observability by looking through the extra information and transcripts from
+the talks. The group also made a few points about the talks that will be
+summarised in an upcoming blog post.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ckfV2PYN8Ig?si=tJnqFgSM88CDo-Bi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2025-12-31: No Meeting
 
