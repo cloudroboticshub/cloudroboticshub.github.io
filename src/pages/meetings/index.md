@@ -17,9 +17,16 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-01-28: Canonical Observability Stack with Guillaume Beuzeboc (Upcoming)
+## 2026-02-11: Canonical Observability Stack Tryout (Upcoming)
 
-For this session, the CRWG has invited [Guillaume
+Following the previous meeting's presentation on the Canonical Observability
+Stack, the group will attempt to deploy some components based on the publicly
+available tutorials and documentation. This is similar to previous meetings
+where the group tried out KubeEdge and Zenoh.
+
+## 2026-01-28: Canonical Observability Stack with Guillaume Beuzeboc
+
+For this session, the CRWG invited [Guillaume
 Beuzeboc](https://www.linkedin.com/in/guillaume-beuzeboc/) from
 [Canonical](https://canonical.com/) to present on the [Canonical Observability
 Stack
@@ -27,8 +34,16 @@ Stack
 COS is a general observability stack for devices such as drones, robots, and IoT
 devices. It operates from telemetry data, and the COS team has extended it to
 support robot-specific use cases. Guillaume, a software engineer at Canonical,
-previously presented COS at ROSCon 2025 and has kindly agreed to join this
+previously presented COS at ROSCon 2025 and kindly agreed to join this
 meeting to discuss additional technical details with the CRWG. 
+
+The talk also includes questions from the group members, such as how non-experts
+can operate the tool, and whether it supports conditional deployment based on
+robot capabilities.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CmO5SKyAcwI?si=XjMAcnle8T0yc6GT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-01-14: ROSCon Review Continued
 
