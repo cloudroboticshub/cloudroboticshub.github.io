@@ -17,12 +17,12 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-02-11: Canonical Observability Stack Tryout (Upcoming)
+## 2026-02-11: Canonical Observability Stack Tryout (Cancelled)
 
-Following the previous meeting's presentation on the Canonical Observability
-Stack, the group will attempt to deploy some components based on the publicly
-available tutorials and documentation. This is similar to previous meetings
-where the group tried out KubeEdge and Zenoh.
+~~Following the previous meeting's presentation on the Canonical Observability~~
+~~Stack, the group will attempt to deploy some components based on the publicly~~
+~~available tutorials and documentation. This is similar to previous meetings~~
+~~where the group tried out KubeEdge and Zenoh.~~
 
 ## 2026-01-28: Canonical Observability Stack with Guillaume Beuzeboc
 
