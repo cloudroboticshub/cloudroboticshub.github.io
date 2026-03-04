@@ -17,15 +17,35 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-02-25: Canonical Observability Stack Tryout (Upcoming)
+## 2026-03-09: Part 2: Canonical Observability Stack Tryout (Upcoming)
 
-Last session was cancelled due to illness. Therefore, the next session will take
-over.
+In this session, we plan to continue our tryout of the Canonical Observability
+Stack (COS). This session will pick up where the previous session left off: an
+AWS instance hosting the COS server side, and a VirtualBox VM hosting the robot side.
+
+:::note[Day Change]
+
+Please note that the meeting day has moved from Wednesday to Monday.
+
+:::
+
+
+## 2026-02-25: Canonical Observability Stack Tryout
 
 Following the prior meeting's presentation on the Canonical Observability
-Stack, the group will attempt to deploy some components based on the publicly
-available tutorials and documentation. This is similar to previous meetings
-where the group tried out KubeEdge and Zenoh.
+Stack (COS), the group attempted to deploy COS components based on the publicly
+available tutorials and documentation. The recording unfortunately cut out
+shortly into the meeting due to lack of disk space.
+
+From that point, the group worked through setting up an AWS instance to host the
+COS server side, and a VirtualBox VM to host the robot side. By the end of the
+session, the group had a slightly misconfigured server, so the robot was unable
+to connect. Hence, this will be continued in the next session.
+
+If you're interested to watch the recorded part of the meeting, it is available
+on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BgIjijddgLM?si=9MLk2lataqaI1zs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-02-11: Canonical Observability Stack Tryout (Cancelled)
 
