@@ -17,18 +17,24 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-03-09: Part 2: Canonical Observability Stack Tryout (Upcoming)
+## 2026-03-23: Transitive Robotics Tryout
 
-In this session, we plan to continue our tryout of the Canonical Observability
-Stack (COS). This session will pick up where the previous session left off: an
-AWS instance hosting the COS server side, and a VirtualBox VM hosting the robot side.
+In this session, the group plan to try out Transitive Robotics, which is a
+service that allows users to deploy and manage robots, including giving
+full-stack robotic capabilities. Capabilities include data capture and storage,
+which makes Transitive Robotics a useful case study for our focus on Logging &
+Observability.
 
-:::note[Day Change]
+## 2026-03-09: Part 2: Canonical Observability Stack Tryout
 
-Please note that the meeting day has moved from Wednesday to Monday.
+In this session, the group continued our tryout of the Canonical Observability
+Stack (COS) from the previous meeting. We were successful in hosting the full
+stack and viewing the public pages, as well as connecting a simulated robot to
+the stack. We could view logs and system statistics from the simulated robot.
 
-:::
+If you'd like to see the meeting, it is available on YouTube:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OfHzbO1mFd0?si=asI7QHE4tol80kve" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-02-25: Canonical Observability Stack Tryout
 
