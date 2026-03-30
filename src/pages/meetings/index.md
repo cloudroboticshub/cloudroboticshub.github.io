@@ -17,13 +17,30 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
+## 2026-04-06: Custom Capabilities in Transitive Robotics (Upcoming)
+
+In this session, the group plans to continue our Transitive Robotics tryout by
+trying one of the more advanced features: writing and deploying a custom
+capability. This feature allows customers to write their own custom code and
+deploy it to their robots alongside the features available directly from
+Transitive Robotics.
+
 ## 2026-03-23: Transitive Robotics Tryout
 
-In this session, the group plan to try out Transitive Robotics, which is a
+The group used this session to try out Transitive Robotics, which is a
 service that allows users to deploy and manage robots, including giving
 full-stack robotic capabilities. Capabilities include data capture and storage,
 which makes Transitive Robotics a useful case study for our focus on Logging &
 Observability.
+
+We managed to set up a remote Turtlebot with Transitive Robotics and remote
+control the robot. We also added Maps as a capability, which unfortunately
+didn't work due to incompatibility with ROS 2 Jazzy (support has since been
+added for Jazzy).
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GVUuPl1C4vE?si=Ble-lsTXny9KHbxp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-03-09: Part 2: Canonical Observability Stack Tryout
 
