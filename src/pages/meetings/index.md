@@ -17,13 +17,16 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-04-06: Custom Capabilities in Transitive Robotics (Upcoming)
+## 2026-04-13: Custom Capabilities in Transitive Robotics (Upcoming)
 
 In this session, the group plans to continue our Transitive Robotics tryout by
 trying one of the more advanced features: writing and deploying a custom
 capability. This feature allows customers to write their own custom code and
 deploy it to their robots alongside the features available directly from
 Transitive Robotics.
+
+**Note: this has been pushed back a week from the normal time due to Easter
+holidays!**
 
 ## 2026-03-23: Transitive Robotics Tryout
 
