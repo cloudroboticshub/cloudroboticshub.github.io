@@ -17,7 +17,7 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-04-20: Custom Capabilities in Transitive Robotics (Upcoming)
+## 2026-05-04: Custom Capabilities in Transitive Robotics - Again (Upcoming)
 
 In this session, the group plans to continue our Transitive Robotics tryout by
 trying one of the more advanced features: writing and deploying a custom
@@ -25,8 +25,24 @@ capability. This feature allows customers to write their own custom code and
 deploy it to their robots alongside the features available directly from
 Transitive Robotics.
 
-**Note: this was previously scheduled for 2026-04-13, but was postponed to
-2026-04-20.**
+We did attempt to try this out last meeting, but unfortunately used an
+unsupported system for setting up the development environment. Hence, we will
+attempt the tryout again this session.
+
+## 2026-04-20: Custom Capabilities in Transitive Robotics
+
+In this session, the group attempted to set up a custom capability in Transitive
+Robotics. Unfortunately, the attempted setup was on a Windows machine, which
+isn't a supported way to setting up the development environment. Hence, this
+session has again been postponed until a supported development environment can
+be used.
+
+This session was recorded, and consists of the host trying to set up the
+development environment in WSL and on a VirtualBox Virtual Machine, neither of
+which were successful. If you are interested in seeing the recording, it is
+available here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aM-qwHexcgU?si=2HInsLtQ9GsS6jEr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-03-23: Transitive Robotics Tryout
 
