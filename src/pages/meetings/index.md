@@ -17,17 +17,27 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-05-04: Custom Capabilities in Transitive Robotics - Again (Upcoming)
+## 2026-05-18: Preparing for State of Cloud Robotics Survey (Upcoming)
 
-In this session, the group plans to continue our Transitive Robotics tryout by
-trying one of the more advanced features: writing and deploying a custom
+In this session, the group plans to go over the public survey they held in 2024
+about the State of Cloud Robotics. They will update the questions and get a new
+survey ready to release the public, and plan to analyse the results in the
+following meeting once responses have been gathered.
+
+## 2026-05-04: Custom Capabilities in Transitive Robotics - Again
+
+In this session, the group continued their Transitive Robotics tryout by trying
+one of the more advanced features: writing and deploying a custom
 capability. This feature allows customers to write their own custom code and
 deploy it to their robots alongside the features available directly from
 Transitive Robotics.
 
-We did attempt to try this out last meeting, but unfortunately used an
-unsupported system for setting up the development environment. Hence, we will
-attempt the tryout again this session.
+We were able to get a working setup over the majority of the meeting, and by the
+end had managed to implement a small piece of custom functionality.
+
+If you'd like to see the meeting, it is available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RveACtzYGc8?si=CAfVR97pg0nr4RNF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-04-20: Custom Capabilities in Transitive Robotics
 
