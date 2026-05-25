@@ -17,12 +17,24 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-05-18: Preparing for State of Cloud Robotics Survey (Upcoming)
+## 2026-06-01: Part 2 - Preparing for State of Cloud Robotics Survey (Upcoming)
 
-In this session, the group plans to go over the public survey they held in 2024
-about the State of Cloud Robotics. They will update the questions and get a new
-survey ready to release the public, and plan to analyse the results in the
-following meeting once responses have been gathered.
+In this session, the group plans to continue updating the set of questions for
+the next State of Cloud Robotics Survey. This continues from last session, where
+they created a list of questions and categories that need further refining
+before sending out the survey.
+
+## 2026-05-18: Preparing for State of Cloud Robotics Survey
+
+In this session, the group started preparing for a new State of Cloud Robotics
+Survey by going over the questions sent in the previous survey. The previous
+survey asked respondents if they would suggest any new questions, and the group
+used feedback from this question to come up with new questions ready for the
+next survey.
+
+If you'd like to see the meeting, is it available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cUoqk1yv5zg?si=WJj_O5dZ17uaqlTB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-05-04: Custom Capabilities in Transitive Robotics - Again
 
