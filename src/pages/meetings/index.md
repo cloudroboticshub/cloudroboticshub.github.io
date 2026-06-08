@@ -17,12 +17,25 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-06-01: Part 2 - Preparing for State of Cloud Robotics Survey (Upcoming)
+## 2026-06-15: Logging and Observability Discussion (Upcoming)
 
-In this session, the group plans to continue updating the set of questions for
-the next State of Cloud Robotics Survey. This continues from last session, where
-they created a list of questions and categories that need further refining
-before sending out the survey.
+The group has been discussing Logging and Observability tips and best practices
+over the course of several months. In this session, the group will bring
+together some of their learnings as an informal discussion. Notes from this
+meeting will serve as a basis for the Logging and Observability Guide; once the
+guide is written, previous guest speakers will be invited to review it before
+it's published.
+
+## 2026-06-01: Part 2 - Preparing for State of Cloud Robotics Survey
+
+In this session, the group continued to update the set of questions for the next
+State of Cloud Robotics Survey. They successfully built a set of questions and
+the survey was sent out the next day. Any developers using cloud robotics are
+invited to [respond to the survey](https://forms.gle/WxXiRcCkRxxJLUop9).
+
+If you'd like to see the meeting, is it available on YouTube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yJeAWXeL6wQ?si=eZGwLyniGlczrVX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2026-05-18: Preparing for State of Cloud Robotics Survey
 
