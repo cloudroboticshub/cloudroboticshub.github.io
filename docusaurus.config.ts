@@ -67,6 +67,12 @@ const config: Config = {
         {to: '/meetings', label: 'Meetings', position: 'left'},
         {
           type: 'docSidebar',
+          sidebarId: 'guidesSidebar',
+          position: 'left',
+          label: 'Guides',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'resourcesSidebar',
           position: 'left',
           label: 'Resources',

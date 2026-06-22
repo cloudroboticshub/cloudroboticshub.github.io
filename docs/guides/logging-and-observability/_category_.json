@@ -1,0 +1,8 @@
+{
+  "label": "Logging and Observability",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "guides/logging-and-observability/index"
+  }
+}
