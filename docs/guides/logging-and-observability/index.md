@@ -5,16 +5,24 @@ sidebar_position: 1
 # Logging and Observability Guide
 
 This guide collects lessons from the Cloud Robotics Working Group's Logging and
-Observability sessions. The recurring theme is that robot observability is not
-just "send logs to the cloud". A useful system has to decide what to collect,
-where to process it, when to upload it, how to search it later, and which person
-is expected to act on it.
+Observability sessions. A useful system does not just send logs to the cloud; it
+has to decide what to collect, where to process it, when to upload it, how to
+index it for later searching, and which person is expected to act on it.
 
-Robots produce several different kinds of evidence: low-bandwidth health
-signals, logs, metrics, diagnostics, events, traces, ROS topics, video, maps,
-and complete recordings such as ROS bags or MCAP files. The most useful systems
-combine these layers rather than treating one data type as sufficient on its
-own.
+Robots produce several different kinds of evidence: logs, metrics, diagnostics,
+and raw or processed sensor data, to name a few. The most useful systems combine
+these layers rather than treating one data type as sufficient on its own.
+
+:::info Guide Structure
+
+This guide exists to create a scaffolding for the various difficulties of
+Logging and Observability. If you want to implement L&O for yourself, these are
+the categories that we recommend you think through.
+
+:::
+
+<!-- How to use this guide: check your assumptions, review your design -->
+<!-- Each section will review questions you should ask yourself and which tools are already available to avoid rebuilding yourself -->
 
 ## Practical Principles
 

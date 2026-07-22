@@ -16,8 +16,9 @@ A logging and observability stack for robots usually spans four places:
 ## Robot Agent
 
 The robot-side agent is the foundation of the stack. It should collect basic
-health signals, logs, diagnostics, and selected robot data without making the
-robot less reliable.
+logs, health signals, diagnostics, and selected robot data. Some filtering and
+transformation of data will occur on the robot to avoid capturing and sending
+too much for higher layers of the stack.
 
 Common robot-side responsibilities include:
 
@@ -39,36 +40,39 @@ The agent must fail safely. Observability is meant to help the robot, not become
 another thing that can take it down. In practice this means bounded CPU, memory,
 storage, bandwidth, and retry behaviour.
 
+:::note Diagnostics are a Developer-Level Responsibility
+
+Engineers should consider diagnostics to be a tool similar to unit tests for
+debugging and preventing regression. For example, when fixing an issue, a
+diagnostic should be created as well as unit tests to spot whether the issue
+happens again.
+
+:::
+
 ## Data Transfer
 
 Data transfer should be designed in tiers:
 
-- **Always-on low bandwidth:** heartbeat, fleet status, robot diagnostics, and
-  key metrics.
-- **Regular operational data:** logs, summaries, selected topics, and dashboard
+- **Always-on low bandwidth:** heartbeat, status, and diagnostics.
+- **Regular operational data:** logs, summaries, select data topics, and dashboard
   values.
 - **Triggered heavy data:** ROS bags, MCAP files, video clips, maps, and other
-  full-fidelity recordings around an event.
+  full-fidelity recordings around an event. Events may be manually triggered by a user or automatically triggered based on processed data.
 - **Manual or support-driven data:** data captured because an operator,
   developer, or customer support person needs deeper evidence.
 
-This tiered model showed up repeatedly in working group discussions. It helps a
-system keep a useful live view of the fleet while reserving expensive uploads
-for situations where the extra detail has value.
+This tiered model helps a system keep a useful live view of the fleet while
+reserving expensive uploads for situations where the extra detail has value.
 
 Transfer design should include:
 
-- Local queueing and resumable uploads.
+- Local queuing and resumable uploads.
 - Priority ordering after outages.
 - Rate limits and backpressure.
 - Compression and chunking.
 - A distinction between streaming data and file upload.
 - A way to know whether a file or event was successfully uploaded and indexed.
 - Clear behaviour for robots with intermittent or very low bandwidth links.
-
-ROS topics, MQTT, HTTP, WebSockets, WebRTC, Zenoh, and custom upload tools may
-all be useful in different parts of the system. Avoid assuming one protocol
-solves every layer.
 
 ## Cloud Hosting
 
