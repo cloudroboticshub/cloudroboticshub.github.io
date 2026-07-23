@@ -17,10 +17,10 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-08-10: Logging and Observability Guide Review (Upcoming)
+## 2026-08-24: Logging and Observability Guide Review (Upcoming)
 
-*The session on 2026-07-27 is being skipped due to lack of availability of
-members.*
+*The sessions on 2026-07-27 and 2026-08-10 are being skipped due to lack of
+availability of members.*
 
 The group plans to continue editing the Logging and Observability Guide. As in
 the previous session, the group will not record this session due to the amount
