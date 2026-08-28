@@ -4,8 +4,14 @@ sidebar_position: 4
 
 # Live Data
 
-Live data supports monitoring, alerting, support, and operational decision
-making while a robot is running.
+Live data supports monitoring, alerting, support, and operational
+decision-making while a robot is running.
+
+## Data Transfer
+
+"Obviously MQTT" - Christian Fritz, 2026
+
+<!-- TODO: fill out this section -->
 
 ## Querying
 
@@ -29,12 +35,7 @@ robot, then from a single robot to a time range, event, or recording.
 ## Anomaly Detection
 
 Anomaly detection covers how abnormal behaviour is detected and how the system
-decides what context to preserve. Relevant examples and tools from the working
-group sessions include:
-
-- Bagel
-- ROSBag MCP Server
-- Triggered data capture around abnormal events
+decides what context to preserve.
 
 Anomaly detection should be treated as a trigger and triage mechanism, not as a
 replacement for observability. It can decide when to capture more data, create

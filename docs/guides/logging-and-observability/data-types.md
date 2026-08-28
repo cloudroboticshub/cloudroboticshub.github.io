@@ -8,6 +8,27 @@ A robot observability system should not collapse every signal into "logs".
 Different data types answer different questions and need different storage,
 query, and visualisation approaches.
 
+## Sensor Data
+
+Sensor data may include camera streams, lidar, depth, audio, joint states,
+poses, maps, and other robot-specific signals. For each signal, decide whether
+it needs live visibility, sampled upload, feature extraction, or full recording
+for later analysis.
+
+Sensor data is often the highest-value evidence and the highest-cost data. A
+system should decide:
+
+- Which signals need to be visible live.
+- Which signals need full-fidelity recording.
+- Which signals can be downsampled.
+- Which signals can be reduced to features, such as nearest lidar point,
+  detected object classes, or confidence scores.
+- Which signals should stay on the robot unless an event occurs.
+
+Camera and lidar streams can quickly dominate bandwidth and storage. A common
+pattern is to keep a rolling buffer locally and upload a clip only when an
+event, user, or alert requests it.
+
 ## Logs
 
 Logs should be treated as records of meaningful events, errors, warnings, state
@@ -48,26 +69,16 @@ Useful metrics include:
 Metrics are useful because they are cheap to transmit and easy to aggregate.
 They are usually the right data type for dashboards and alerts.
 
-## Sensor Data
+## Traces
 
-Sensor data may include camera streams, lidar, depth, audio, joint states,
-poses, maps, and other robot-specific signals. For each signal, decide whether
-it needs live visibility, sampled upload, feature extraction, or full recording
-for later analysis.
+Traces describe a path through a distributed system or software pipeline. They
+are useful when an incident depends on ordering, latency, or cross-component
+behaviour.
 
-Sensor data is often the highest-value evidence and the highest-cost data. A
-system should decide:
-
-- Which signals need to be visible live.
-- Which signals need full-fidelity recording.
-- Which signals can be downsampled.
-- Which signals can be reduced to features, such as nearest lidar point,
-  detected object classes, or confidence scores.
-- Which signals should stay on the robot unless an event occurs.
-
-Camera and lidar streams can quickly dominate bandwidth and storage. A common
-pattern is to keep a rolling buffer locally and upload a clip only when an
-event, user, or alert requests it.
+For robotics, traces may connect a command, planner decision, perception
+result, control action, cloud request, upload job, or user operation. They are
+especially useful when the question is "where did time go?" or "which component
+caused this behaviour?"
 
 ## Events
 
@@ -88,29 +99,3 @@ Good event records should include:
 - Severity or confidence.
 - Linked logs, metrics, recordings, and annotations.
 - Resolution status where applicable.
-
-## Traces
-
-Traces describe a path through a distributed system or software pipeline. They
-are useful when an incident depends on ordering, latency, or cross-component
-behaviour.
-
-For robotics, traces may connect a command, planner decision, perception
-result, control action, cloud request, upload job, or user operation. They are
-especially useful when the question is "where did time go?" or "which component
-caused this behaviour?"
-
-## Recordings
-
-Recordings include ROS bags, MCAP files, ULog files, video clips, map snapshots,
-or custom formats designed for large-scale query. They are most useful for
-post-incident debugging, regression analysis, model development, and finding
-similar situations across a fleet.
-
-The recording format matters less than whether the data can be:
-
-- Safely captured on the robot.
-- Uploaded despite unreliable networks.
-- Indexed with useful metadata.
-- Queried by time, robot, event, software version, and task.
-- Opened in appropriate visualisation and analysis tools.

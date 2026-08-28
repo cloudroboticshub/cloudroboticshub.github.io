@@ -15,6 +15,12 @@ most expensive to collect, upload, store, and search. The guide therefore
 recommends treating recording as a deliberate pipeline, not a side effect of
 running `rosbag record`.
 
+## Data Transfer
+
+"Obviously not MQTT, this time" - Christian Fritz, 2026
+
+<!-- TODO: fill out this section -->
+
 ## Data Recording Methods
 
 Common recording formats and approaches include ROS bag files, custom
@@ -162,6 +168,12 @@ Analysis includes manual review, automated processing, and AI-assisted
 workflows. Example questions include finding similar trajectories, comparing
 robot behaviour across runs, or identifying cases such as an arm placing a cup
 in a cupboard.
+
+Relevant examples and tools from the working group sessions include:
+
+- Bagel
+- ROSBag MCP Server
+- Triggered data capture around abnormal events
 
 Analysis workflows seen in the sessions included:
 

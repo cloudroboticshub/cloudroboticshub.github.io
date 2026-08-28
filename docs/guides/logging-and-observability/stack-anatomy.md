@@ -13,9 +13,9 @@ A logging and observability stack for robots usually spans four places:
   linked to robots and users.
 - The UI and automation layer, where humans and systems decide what to do next.
 
-## Robot Agent
+## Data Collection Agent (Collector)
 
-The robot-side agent is the foundation of the stack. It should collect basic
+The collector is the foundation of the stack. It should collect basic
 logs, health signals, diagnostics, and selected robot data. Some filtering and
 transformation of data will occur on the robot to avoid capturing and sending
 too much for higher layers of the stack.
@@ -36,7 +36,7 @@ Common robot-side responsibilities include:
 - Attaching metadata such as robot identity, software version, hardware
   version, configuration, task, and trigger reason.
 
-The agent must fail safely. Observability is meant to help the robot, not become
+The collector must fail safely. Observability is meant to help the robot, not become
 another thing that can take it down. In practice this means bounded CPU, memory,
 storage, bandwidth, and retry behaviour.
 
@@ -74,18 +74,34 @@ Transfer design should include:
 - A way to know whether a file or event was successfully uploaded and indexed.
 - Clear behaviour for robots with intermittent or very low bandwidth links.
 
-## Cloud Hosting
+## Cloud Services
+
+<!-- TODO: rearrange this section so hosting is less prominent and services is more useful -->
+
+Features to be aware of when selecting cloud services:
+
+- Robot enrolment and identity.
+- Authentication and authorisation.
+- Time-series storage for metrics.
+- Log aggregation and search.
+- Object storage for large recordings.
+  - S3, CloudFlare etc
+- Metadata storage and indexing.
+  - TODO
+- Alert routing.
+- APIs for automation, analysis, and user interfaces.
+
+### Hosting
 
 There are two broad hosting models.
 
-- **Self-hosted stack:** running services directly, such as a Canonical-style
-  observability stack, gives teams more control but also more operational
-  responsibility.
+- **Self-hosted stack:** running services directly gives teams more control, but
+  also more operational responsibility.
 - **Managed service:** paying for a service can reduce maintenance and speed up
   adoption, but may constrain architecture, data ownership, or custom workflows.
 
-Open stacks such as Grafana, Prometheus, Loki, Alertmanager, object storage, and
-ROS/MCAP tooling can be composed into powerful systems. The advantage is
+Open stacks such as Grafana, Prometheus, and Loki can be composed into powerful
+systems. The advantage is 
 control: teams can tune storage, network, retention, dashboards, and access
 rules. The tradeoff is that somebody must operate the stack.
 
@@ -94,16 +110,11 @@ the data model, ingest path, dashboards, search, and fleet integration out of
 the box. The tradeoff is that teams must understand where the platform's model
 fits or conflicts with their own architecture.
 
-For either model, the backend needs:
+:::tip Hybrid Model
 
-- Robot enrolment and identity.
-- Authentication and authorisation.
-- Time-series storage for metrics.
-- Log aggregation and search.
-- Object storage for large recordings.
-- Metadata storage and indexing.
-- Alert routing.
-- APIs for automation, analysis, and user interfaces.
+Depending on your needs from the observability platform, you may want to have a mixture of self-hosted and managed services. For example, use self-hosted Grafana to provide an overall dashboard of your robot fleet while using a tool like Roboto to search for individual robot events.
+
+:::
 
 ## Web and UI
 
