@@ -191,7 +191,7 @@ export function ChecklistProgress() {
   return (
     <div className={styles.progressSection}>
       <div className={styles.progressLabel}>
-        {completed} of {total} considered ({percentage}%)
+        {completed} of {total} checked ({percentage}%)
       </div>
 
       <progress

@@ -9,9 +9,54 @@ decision-making while a robot is running.
 
 ## Data Transfer
 
-"Obviously MQTT" - Christian Fritz, 2026
+Live data should use a lightweight, persistent channel designed for small,
+continuous updates. MQTT is a strong default for this pattern: its
+publish/subscribe model lets robots publish once while dashboards, support
+tools, and fleet services subscribe to one robot, a group, or the whole fleet.
+The same pattern can be implemented with another transport when deployment
+constraints require it; the important properties are low overhead, selective
+delivery, and reliable reconnection.
 
-<!-- TODO: fill out this section -->
+The robot should initiate an outbound connection to a broker or cloud endpoint
+rather than expose a server that requires inbound access. Customer networks
+often block inbound connections and may also prohibit VPNs, while outbound
+HTTPS or WebSocket traffic is much more likely to work through firewalls and
+NAT. Once established, the persistent connection can carry data in both
+directions. Browsers can consume the same MQTT stream over WebSockets; WebRTC
+is an alternative for interactive, high-rate streams such as video or remote
+visualisation where NAT traversal and lower latency matter.
+
+Transfer state rather than blindly forwarding every message. A synchronization
+layer over the transport can maintain a consistent current view across robot,
+cloud, and web clients. Organise the state by robot and subsystem so consumers
+can subscribe only to the fields they need, and avoid retransmitting unchanged
+or redundant values. This is especially important when a fleet has many web
+viewers with different scopes.
+
+Use explicit transfer levels so a weak connection does not turn observability
+into a burden on robot operation:
+
+1. Always send a low-bandwidth heartbeat and essential health or diagnostic
+   state. Use connection liveness and, where supported, MQTT keep-alive and
+   last-will messages to distinguish an offline robot from a silent subsystem.
+2. Send ordinary metrics, logs, and selected topic values continuously or at a
+   bounded rate. Filter, aggregate, sample, or reduce update frequency on the
+   robot before transmission.
+3. Enable richer topic streams only on demand for a developer or active support
+   session, and stop them when the session ends.
+4. Transfer ROS bags, video archives, and other large recordings through the
+   recorded-data upload pipeline, not through the live MQTT channel.
+
+The implementation should tolerate intermittent connectivity without blocking
+the robot. Reconnect automatically, expose connection and delivery health, and
+bound any local queue so stale telemetry cannot exhaust disk or memory. Current
+state should take priority over an unbounded backlog after reconnection; data
+that must arrive eventually belongs in the durable recorded-data path.
+
+Finally, authenticate robots and viewers, encrypt data in transit, and enforce
+tenant- and role-based authorization at subscription boundaries. A fleet-wide
+topic structure must not allow a customer, operator, or browser to subscribe to
+robots outside its permitted scope.
 
 ## Querying
 

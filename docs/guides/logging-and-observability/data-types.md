@@ -15,25 +15,14 @@ A robot observability system should not collapse every signal into "logs".
 Different data types answer different questions and need different storage,
 query, and visualisation approaches.
 
-<ChecklistProvider id="data-types">
-  <ChecklistProgress />
-  <ChecklistItem id="sensor-data">
-    Decide how sensor data will be sampled, recorded, or uploaded.
-  </ChecklistItem>
-  <ChecklistItem id="logs">
-    Define structured logs with stable identifiers and consistent levels.
-  </ChecklistItem>
-  <ChecklistItem id="metrics">
-    Identify the numeric signals needed for dashboards and alerts.
-  </ChecklistItem>
-  <ChecklistItem id="traces">
-    Identify workflows that need latency and cross-component tracing.
-  </ChecklistItem>
-  <ChecklistItem id="events">
-    Define the events that connect related observability data.
-  </ChecklistItem>
-  <ChecklistReset />
-</ChecklistProvider>
+We define these types of data:
+
+- [**Sensor Data**](#sensor-data): raw or processed data collected from the
+  robot.
+- [**Logs**](#logs): text records collected during the robot's operation.
+- [**Metrics**](#metrics): numeric values collected over time, such as CPU usage.
+- [**Traces**](#traces): a path through a system or pipeline.
+- [**Events**](#events): named moments or time ranges that matter.
 
 ## Sensor Data
 
@@ -47,6 +36,9 @@ system should decide:
 
 <ChecklistProvider id="sensor-data-decisions">
   <ChecklistProgress />
+  <ChecklistItem id="signals">
+    How signals will be collected.
+  </ChecklistItem>
   <ChecklistItem id="live-visibility">
     Which signals need to be visible live.
   </ChecklistItem>
@@ -89,7 +81,8 @@ Good logs:
     or event ID.
   </ChecklistItem>
   <ChecklistItem id="consistent-levels">
-    Use levels consistently.
+    Provide guidance on which levels should be used for particular incidents so
+    that levels can be consistent.
   </ChecklistItem>
   <ChecklistItem id="avoid-high-rate-state">
     Avoid becoming a dumping ground for high-rate state.
@@ -129,6 +122,10 @@ Useful metrics include:
   <ChecklistItem id="fleet-metrics">
     Fleet metrics: number of healthy robots, robots offline, robots in error,
     unresolved incidents, and software-version distribution.
+  </ChecklistItem>
+  <ChecklistItem id="dashboard">
+    Identify the signals needed across the whole stack for dashboards and
+    alerts. These will be the highest priority signals to collect.
   </ChecklistItem>
   <ChecklistReset />
 </ChecklistProvider>

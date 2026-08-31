@@ -75,7 +75,7 @@ restored when you return to the guide.
   Feedback](/docs/guides/logging-and-observability/visualisation-feedback)
 - [Open Questions](/docs/guides/logging-and-observability/open-questions)
 
-:::note
+:::note Evolving Document
 
 This guide is still evolving. The current version is based on working group
 discussion and transcripts from sessions on Roboto AI, Heex, Bagel, ROSBag MCP
