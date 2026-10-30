@@ -17,13 +17,26 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-10-19: Logging and Observability Guide Review (Upcoming)
+## 2026-11-16: Open Telemetry - the next steps after logs with Matthew Macdonald-Wallace (Upcoming)
 
-The group plans to continue editing the Logging and Observability Guide. As in
-the previous session, the group will not record this session due to the amount
-of time spent reading through and editing.
+In this meeting, guest speaker [Matthew
+Macdonald-Wallace](https://www.linkedin.com/in/mattmacdonald-wallace/) from
+[Dash0](https://www.dash0.com/) will talk about what comes next once you've got
+your logs under control, and why he thinks Open Telemetry is the best way to
+approach metrics, logs, **and** traces today. The aim is visibility from end to
+end, from the control platform all the way down to the end device.
 
-The group expects this to be the final review session.
+Matthew will also show how Dash0 collates and displays all of that data, but the
+focus will be on the "open" side of things rather than the platform itself. He'd
+rather you left knowing why the standard matters than which vendor's dashboard
+looks nicest.
+
+## 2026-10-19: Logging and Observability Guide Review
+
+The group used this session to finalise their review of the Logging and
+Observability Guide. The session was not recorded. After this session, the group
+found that the guide was ready to publish, subject to the last edits noted in
+the review.
 
 ## 2026-10-05: Logging and Observability Guide Review
 
