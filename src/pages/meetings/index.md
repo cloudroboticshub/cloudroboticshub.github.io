@@ -17,7 +17,13 @@ If you have an interesting topic of discussion for the group, please propose
 that topic using the [Github
 Issue](https://github.com/cloudroboticshub/cloudroboticshub.github.io/issues/33).
 
-## 2026-11-16: Open Telemetry - the next steps after logs with Matthew Macdonald-Wallace (Upcoming)
+## No Meetings Until New Year
+
+The group is cancelling the next few meetings. The next meeting will be in 2027.
+
+## 2026-11-16: Open Telemetry - the next steps after logs with Matthew Macdonald-Wallace (Postponed)
+
+*This meeting has been postponed until the new year.*
 
 In this meeting, guest speaker [Matthew
 Macdonald-Wallace](https://www.linkedin.com/in/mattmacdonald-wallace/) from
